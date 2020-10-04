@@ -22,8 +22,14 @@ namespace Architecture.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
-
+            return View();
+        }
+        public ActionResult References()
+        {
+            return View();
+        }
+        public ActionResult Projects()
+        {
             return View();
         }
     }

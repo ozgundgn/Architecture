@@ -22,3 +22,7 @@ select,
 textarea {
     max-width: 280px;
 }
+.openMenu {
+    opacity: 1 !important;
+    height: 68px !important;
+}

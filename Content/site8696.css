@@ -18202,7 +18202,7 @@ a:visited {
 
 .main-nav a:hover,
 .main-nav .folder li a:hover {
-    color: #d9d3d3
+    color: #d9d3d3 !important;
 }
 
 .main-nav#secondaryNavigation a,

@@ -1,33 +1,67 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-<div class="sqs-block-content">
-    <div class="sqs-gallery-container sqs-gallery-block-slideshow sqs-gallery-block-show-meta sqs-gallery-transparent-background block-animation-none clear">
-        <div class="sqs-gallery">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-            <div class="slide content-fit" data-type="image" data-click-through-url="">
-                <noscript><img src="../../Content/Images/murron-logo---large2acd.jpg" alt="AdobeStock_112674930.jpg" /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/5d0cbbde5ac0ce0001b4754c/1575896765634-9UM32MRA6LV0X4IN5F8I/ke17ZwdGBToddI8pDm48kPTrHXgsMrSIMwe6YW3w1AZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0k5fwC0WRNFJBIXiBeNI5fKTrY37saURwPBw8fO2esROAxn-RKSrlQamlL27g22X2A/AdobeStock_112674930.jpg" data-image="https://images.squarespace-cdn.com/content/v1/5d0cbbde5ac0ce0001b4754c/1575896765634-9UM32MRA6LV0X4IN5F8I/ke17ZwdGBToddI8pDm48kPTrHXgsMrSIMwe6YW3w1AZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0k5fwC0WRNFJBIXiBeNI5fKTrY37saURwPBw8fO2esROAxn-RKSrlQamlL27g22X2A/AdobeStock_112674930.jpg" data-image-dimensions="2500x1406" data-image-focal-point="0.5,0.5" alt="AdobeStock_112674930.jpg" data-load="false" data-image-id="5dee467405aa792cf3b71c66" data-type="image" />
-                <div class="color-overlay"></div>
+<div class="col sqs-col-12 span-12">
+    <div class="sqs-block gallery-block sqs-block-gallery" data-block-json="&#123;&quot;hSize&quot;:null,&quot;floatDir&quot;:null,&quot;methodOption&quot;:&quot;transient&quot;,&quot;existingGallery&quot;:null,&quot;newWindow&quot;:false,&quot;transparentBackground&quot;:true,&quot;aspectRatio&quot;:null,&quot;auto-crop&quot;:false,&quot;autoplay&quot;:true,&quot;autoplay-duration&quot;:8,&quot;blockAnimation&quot;:&quot;none&quot;,&quot;collectionId&quot;:&quot;5db2fad123792f1e968dd87a&quot;,&quot;controls&quot;:false,&quot;design&quot;:&quot;slideshow&quot;,&quot;meta-position&quot;:&quot;bottom&quot;,&quot;show-meta&quot;:false,&quot;show-meta-basic&quot;:true,&quot;show-meta-only-title&quot;:false,&quot;show-meta-only-description&quot;:false,&quot;show-meta-on-hover&quot;:false,&quot;square-thumbs&quot;:true,&quot;thumbnails&quot;:false,&quot;vSize&quot;:null,&quot;transientGalleryId&quot;:&quot;5db2fad123792f1e968dd87a&quot;&#125;" data-block-type="8" id="block-yui_3_17_2_1_1572010646013_3853">
+        <div class="sqs-block-content">
+            <div class="sqs-gallery-container sqs-gallery-block-slideshow sqs-gallery-block-show-meta sqs-gallery-transparent-background block-animation-none clear">
+                <div class="sqs-gallery">
+                    <div id="carouselFade" class="carousel slide carousel-fade" data-interval="2000" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="@Url.Action("Index", "Home")">
+                                    <img class="d-block w-100" src="@Url.Content("~/Content/Images/murron-logo---large2acd.png")" class="thumb-image" data-image-dimensions="2500x1406" alt="First Slide" data-type="image">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="@Url.Action("Index", "Home")">
+                                    <img class="d-block w-100" src="@Url.Content("~/Content/Images/DESIGN_ARCHITECTURE.png")" class="thumb-image" data-image-dimensions="2500x1406" alt="Second slide" data-type="image">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                ">
+                                <a href="@Url.Action("Index", "Home")">
+                                    <img class="d-block w-100" src="@Url.Content("~/Content/Images/murron-logo---large2acd.png")" class="thumb-image" data-image-dimensions="2500x1406" alt="Third slide" data-type="image">
+                                </a>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselFade" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselFade" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="slide content-fit" data-type="image" data-click-through-url="">
-                <noscript><img src="../../Content/Images/murron-logo---large2acd.jpg" alt="1-min.jpg" /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/5d0cbbde5ac0ce0001b4754c/1575655317727-3HQN8B80L8UJF453WE4Y/ke17ZwdGBToddI8pDm48kGwqNa-TSATgABi909OK27Z7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UQSxQa_pE67Ig1CszvlZo11NCLvqIlshiNC_JCcjnOmqOV4zqrbdg_2AqIEjj1Z3Fg/1-min.jpg" data-image="https://images.squarespace-cdn.com/content/v1/5d0cbbde5ac0ce0001b4754c/1575655317727-3HQN8B80L8UJF453WE4Y/ke17ZwdGBToddI8pDm48kGwqNa-TSATgABi909OK27Z7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UQSxQa_pE67Ig1CszvlZo11NCLvqIlshiNC_JCcjnOmqOV4zqrbdg_2AqIEjj1Z3Fg/1-min.jpg" data-image-dimensions="2000x1125" data-image-focal-point="0.5,0.5" alt="1-min.jpg" data-load="false" data-image-id="5dea9793bd53ab559ad3f565" data-type="image" />
-                <div class="color-overlay"></div>
-            </div>
-            <div class="slide content-fit" data-type="image" data-click-through-url="">
-                <noscript><img src="../../Content/Images/murron-logo---large2acd.jpg" alt="4-min.jpg" /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/5d0cbbde5ac0ce0001b4754c/1575655386850-KFALDSKRVQNY8U0LQTQN/ke17ZwdGBToddI8pDm48kGwqNa-TSATgABi909OK27Z7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UQSxQa_pE67Ig1CszvlZo11NCLvqIlshiNC_JCcjnOmqOV4zqrbdg_2AqIEjj1Z3Fg/4-min.jpg" data-image="https://images.squarespace-cdn.com/content/v1/5d0cbbde5ac0ce0001b4754c/1575655386850-KFALDSKRVQNY8U0LQTQN/ke17ZwdGBToddI8pDm48kGwqNa-TSATgABi909OK27Z7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UQSxQa_pE67Ig1CszvlZo11NCLvqIlshiNC_JCcjnOmqOV4zqrbdg_2AqIEjj1Z3Fg/4-min.jpg" data-image-dimensions="2000x1125" data-image-focal-point="0.5,0.5" alt="4-min.jpg" data-load="false" data-image-id="5dea97d93c351f720bc14e22" data-type="image" />
-                <div class="color-overlay"></div>
-            </div>
-            <div class="slide content-fit" data-type="image" data-click-through-url="">
-                <noscript><img src="../../Content/Images/murron-logo---large2acd.jpg" alt="7-min.jpg" /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/5d0cbbde5ac0ce0001b4754c/1575655423234-GMV9305N3AJ5981RD3X4/ke17ZwdGBToddI8pDm48kHMUxPGpIr7l3Vx-jEAg31h7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UWFiGSaIqhXFDAb2sHLiDbXlC1AeGBoxSi0gviK_rnUXkvjJh3JJWsjdMZ66YIxKAg/7-min.jpg" data-image="https://images.squarespace-cdn.com/content/v1/5d0cbbde5ac0ce0001b4754c/1575655423234-GMV9305N3AJ5981RD3X4/ke17ZwdGBToddI8pDm48kHMUxPGpIr7l3Vx-jEAg31h7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UWFiGSaIqhXFDAb2sHLiDbXlC1AeGBoxSi0gviK_rnUXkvjJh3JJWsjdMZ66YIxKAg/7-min.jpg" data-image-dimensions="1800x1012" data-image-focal-point="0.46938775510204084,0.46780873493975905" alt="7-min.jpg" data-load="false" data-image-id="5dea97fce711c857b992e9a0" data-type="image" />
-                <div class="color-overlay"></div>
-            </div>
-            <div class="slide content-fit" data-type="image" data-click-through-url="">
-                <noscript><img src="../../Content/Images/murron-logo---large2acd.jpg" alt="lighter-version.jpg" /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/5d0cbbde5ac0ce0001b4754c/1575970895850-IYEL7A6Q6NJBVV8HRDDF/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USOFn4xF8vTWDNAUBm5ducQhX-V3oVjSmr829Rco4W2Uo49ZdOtO_QXox0_W7i2zEA/lighter-version.jpg" data-image="https://images.squarespace-cdn.com/content/v1/5d0cbbde5ac0ce0001b4754c/1575970895850-IYEL7A6Q6NJBVV8HRDDF/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USOFn4xF8vTWDNAUBm5ducQhX-V3oVjSmr829Rco4W2Uo49ZdOtO_QXox0_W7i2zEA/lighter-version.jpg" data-image-dimensions="1920x1080" data-image-focal-point="0.5,0.5" alt="lighter-version.jpg" data-load="false" data-image-id="5def68355874847c65e65183" data-type="image" />
-                <div class="color-overlay"></div>
-            </div>
-            <div class="slide content-fit" data-type="image" data-click-through-url="">
-                <noscript><img src="../../Content/Images/murron-logo---large2acd.jpg" alt="5-min.jpg" /></noscript><img class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/5d0cbbde5ac0ce0001b4754c/1575655401733-ODHR3XN99Z17GJMTNU57/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USOFn4xF8vTWDNAUBm5ducQhX-V3oVjSmr829Rco4W2Uo49ZdOtO_QXox0_W7i2zEA/5-min.jpg" data-image="https://images.squarespace-cdn.com/content/v1/5d0cbbde5ac0ce0001b4754c/1575655401733-ODHR3XN99Z17GJMTNU57/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USOFn4xF8vTWDNAUBm5ducQhX-V3oVjSmr829Rco4W2Uo49ZdOtO_QXox0_W7i2zEA/5-min.jpg" data-image-dimensions="1920x1080" data-image-focal-point="0.5,0.5" alt="5-min.jpg" data-load="false" data-image-id="5dea97e63c351f720bc14ff6" data-type="image" />
-                <div class="color-overlay"></div>
-            </div>
+            @*<div class="slide content-fit" data-type="image" data-click-through-url="">
+                    <noscript><img src="../../Content/Images/murron-logo---large2acd.png" alt="AdobeStock_112674930.jpg" /></noscript><img src="../../Content/Images/murron-logo---large2acd.png"  class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/5d0cbbde5ac0ce0001b4754c/1575896765634-9UM32MRA6LV0X4IN5F8I/ke17ZwdGBToddI8pDm48kPTrHXgsMrSIMwe6YW3w1AZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0k5fwC0WRNFJBIXiBeNI5fKTrY37saURwPBw8fO2esROAxn-RKSrlQamlL27g22X2A/AdobeStock_112674930.jpg" data-image="https://images.squarespace-cdn.com/content/v1/5d0cbbde5ac0ce0001b4754c/1575896765634-9UM32MRA6LV0X4IN5F8I/ke17ZwdGBToddI8pDm48kPTrHXgsMrSIMwe6YW3w1AZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0k5fwC0WRNFJBIXiBeNI5fKTrY37saURwPBw8fO2esROAxn-RKSrlQamlL27g22X2A/AdobeStock_112674930.jpg" data-image-dimensions="2500x1406" data-image-focal-point="0.5,0.5" alt="AdobeStock_112674930.jpg" data-load="false" data-image-id="5dee467405aa792cf3b71c66" data-type="image" />
+                    <div class="color-overlay"></div>
+                </div>
+                <div class="slide content-fit" data-type="image" data-click-through-url="">
+                    <noscript><img src="../../Content/Images/DESIGN_ARCHITECTURE.png" alt="1-min.jpg" /></noscript><img src="../../Content/Images/DESIGN_ARCHITECTURE.png"  class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/5d0cbbde5ac0ce0001b4754c/1575655317727-3HQN8B80L8UJF453WE4Y/ke17ZwdGBToddI8pDm48kGwqNa-TSATgABi909OK27Z7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UQSxQa_pE67Ig1CszvlZo11NCLvqIlshiNC_JCcjnOmqOV4zqrbdg_2AqIEjj1Z3Fg/1-min.jpg" data-image="https://images.squarespace-cdn.com/content/v1/5d0cbbde5ac0ce0001b4754c/1575655317727-3HQN8B80L8UJF453WE4Y/ke17ZwdGBToddI8pDm48kGwqNa-TSATgABi909OK27Z7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UQSxQa_pE67Ig1CszvlZo11NCLvqIlshiNC_JCcjnOmqOV4zqrbdg_2AqIEjj1Z3Fg/1-min.jpg" data-image-dimensions="2000x1125" data-image-focal-point="0.5,0.5" alt="1-min.jpg" data-load="false" data-image-id="5dea9793bd53ab559ad3f565" data-type="image" />
+                    <div class="color-overlay"></div>
+                </div>
+                <div class="slide content-fit" data-type="image" data-click-through-url="">
+                    <noscript><img src="../../Content/Images/murron-logo---large2acd.png" alt="4-min.jpg" /></noscript><img src="../../Content/Images/murron-logo---large2acd.png" class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/5d0cbbde5ac0ce0001b4754c/1575655386850-KFALDSKRVQNY8U0LQTQN/ke17ZwdGBToddI8pDm48kGwqNa-TSATgABi909OK27Z7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UQSxQa_pE67Ig1CszvlZo11NCLvqIlshiNC_JCcjnOmqOV4zqrbdg_2AqIEjj1Z3Fg/4-min.jpg" data-image="https://images.squarespace-cdn.com/content/v1/5d0cbbde5ac0ce0001b4754c/1575655386850-KFALDSKRVQNY8U0LQTQN/ke17ZwdGBToddI8pDm48kGwqNa-TSATgABi909OK27Z7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UQSxQa_pE67Ig1CszvlZo11NCLvqIlshiNC_JCcjnOmqOV4zqrbdg_2AqIEjj1Z3Fg/4-min.jpg" data-image-dimensions="2000x1125" data-image-focal-point="0.5,0.5" alt="4-min.jpg" data-load="false" data-image-id="5dea97d93c351f720bc14e22" data-type="image" />
+                    <div class="color-overlay"></div>
+                </div>
+                <div class="slide content-fit" data-type="image" data-click-through-url="">
+                    <noscript><img src="../../Content/Images/murron-logo---large2acd.jpg" alt="7-min.jpg" /></noscript><img src="../../Content/Images/murron-logo---large2acd.jpg" class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/5d0cbbde5ac0ce0001b4754c/1575655423234-GMV9305N3AJ5981RD3X4/ke17ZwdGBToddI8pDm48kHMUxPGpIr7l3Vx-jEAg31h7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UWFiGSaIqhXFDAb2sHLiDbXlC1AeGBoxSi0gviK_rnUXkvjJh3JJWsjdMZ66YIxKAg/7-min.jpg" data-image="https://images.squarespace-cdn.com/content/v1/5d0cbbde5ac0ce0001b4754c/1575655423234-GMV9305N3AJ5981RD3X4/ke17ZwdGBToddI8pDm48kHMUxPGpIr7l3Vx-jEAg31h7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UWFiGSaIqhXFDAb2sHLiDbXlC1AeGBoxSi0gviK_rnUXkvjJh3JJWsjdMZ66YIxKAg/7-min.jpg" data-image-dimensions="1800x1012" data-image-focal-point="0.46938775510204084,0.46780873493975905" alt="7-min.jpg" data-load="false" data-image-id="5dea97fce711c857b992e9a0" data-type="image" />
+                    <div class="color-overlay"></div>
+                </div>
+                <div class="slide content-fit" data-type="image" data-click-through-url="">
+                    <noscript><img src="../../Content/Images/insights-button5d45.jpg" alt="lighter-version.jpg" /></noscript><img src="../../Content/Images/insights-button5d45.jpg" class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/5d0cbbde5ac0ce0001b4754c/1575970895850-IYEL7A6Q6NJBVV8HRDDF/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USOFn4xF8vTWDNAUBm5ducQhX-V3oVjSmr829Rco4W2Uo49ZdOtO_QXox0_W7i2zEA/lighter-version.jpg" data-image="https://images.squarespace-cdn.com/content/v1/5d0cbbde5ac0ce0001b4754c/1575970895850-IYEL7A6Q6NJBVV8HRDDF/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USOFn4xF8vTWDNAUBm5ducQhX-V3oVjSmr829Rco4W2Uo49ZdOtO_QXox0_W7i2zEA/lighter-version.jpg" data-image-dimensions="1920x1080" data-image-focal-point="0.5,0.5" alt="lighter-version.jpg" data-load="false" data-image-id="5def68355874847c65e65183" data-type="image" />
+                    <div class="color-overlay"></div>
+                </div>
+                <div class="slide content-fit" data-type="image" data-click-through-url="">
+                    <noscript><img src="../../Content/Images/murron-logo---large2acd.jpg" alt="5-min.jpg" /></noscript><img src="../../Content/Images/murron-logo---large2acd.jpg"  class="thumb-image" data-src="https://images.squarespace-cdn.com/content/v1/5d0cbbde5ac0ce0001b4754c/1575655401733-ODHR3XN99Z17GJMTNU57/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USOFn4xF8vTWDNAUBm5ducQhX-V3oVjSmr829Rco4W2Uo49ZdOtO_QXox0_W7i2zEA/5-min.jpg" data-image="https://images.squarespace-cdn.com/content/v1/5d0cbbde5ac0ce0001b4754c/1575655401733-ODHR3XN99Z17GJMTNU57/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USOFn4xF8vTWDNAUBm5ducQhX-V3oVjSmr829Rco4W2Uo49ZdOtO_QXox0_W7i2zEA/5-min.jpg" data-image-dimensions="1920x1080" data-image-focal-point="0.5,0.5" alt="5-min.jpg" data-load="false" data-image-id="5dea97e63c351f720bc14ff6" data-type="image" />
+                    <div class="color-overlay"></div>
+                </div>*@
+
         </div>
     </div>
 </div>
+

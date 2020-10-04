@@ -23,7 +23,7 @@ namespace Architecture
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/common").Include(
-                "~/Scripts/common-*.js"));          
+                "~/Scripts/common-*"));          
             bundles.Add(new ScriptBundle("~/bundles/performance").Include(
                 "~/Scripts/performance.js",
                 "~/Scripts/performance-d006a09b586a985da86bd-min.en-US.js"));
