@@ -32,5 +32,10 @@ namespace Architecture.Controllers
         {
             return View();
         }
+        public ActionResult Designs()
+        {
+            return View();
+        }
+        
     }
 }
