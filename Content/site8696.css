@@ -18479,8 +18479,8 @@ nav ol {
     }
 
         #logo .logo.image img {
-            width: 260px;
-            max-width: 285px
+            width: 180px;
+            max-width: 220px
         }
 
     #logo .logo-subtitle {
@@ -20236,4 +20236,8 @@ div #topNav a {
 
 div#mobileNav * {
     color: #000 !important
+}
+
+div #topNav a:focus {
+    color: red;
 }
