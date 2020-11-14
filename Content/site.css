@@ -26,3 +26,12 @@ textarea {
     opacity: 1 !important;
     height: 68px !important;
 }
+.carousel-fade .active.carousel-item-left, .carousel-fade .active.carousel-item-right {
+    z-index: 0;
+    opacity: 0;
+    transition: opacity 2s 5s;
+}
+.carousel-item {
+  
+    transition: transform 8s ease-in-out, -webkit-transform 0.6s ease-in-out;
+}

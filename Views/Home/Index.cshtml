@@ -1,12 +1,13 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
+
 <div class="col sqs-col-12 span-12">
     <div class="sqs-block gallery-block sqs-block-gallery" data-block-json="&#123;&quot;hSize&quot;:null,&quot;floatDir&quot;:null,&quot;methodOption&quot;:&quot;transient&quot;,&quot;existingGallery&quot;:null,&quot;newWindow&quot;:false,&quot;transparentBackground&quot;:true,&quot;aspectRatio&quot;:null,&quot;auto-crop&quot;:false,&quot;autoplay&quot;:true,&quot;autoplay-duration&quot;:8,&quot;blockAnimation&quot;:&quot;none&quot;,&quot;collectionId&quot;:&quot;5db2fad123792f1e968dd87a&quot;,&quot;controls&quot;:false,&quot;design&quot;:&quot;slideshow&quot;,&quot;meta-position&quot;:&quot;bottom&quot;,&quot;show-meta&quot;:false,&quot;show-meta-basic&quot;:true,&quot;show-meta-only-title&quot;:false,&quot;show-meta-only-description&quot;:false,&quot;show-meta-on-hover&quot;:false,&quot;square-thumbs&quot;:true,&quot;thumbnails&quot;:false,&quot;vSize&quot;:null,&quot;transientGalleryId&quot;:&quot;5db2fad123792f1e968dd87a&quot;&#125;" data-block-type="8" id="block-yui_3_17_2_1_1572010646013_3853">
         <div class="sqs-block-content">
             <div class="sqs-gallery-container sqs-gallery-block-slideshow sqs-gallery-block-show-meta sqs-gallery-transparent-background block-animation-none clear">
                 <div class="sqs-gallery">
-                    <div id="carouselFade" class="carousel slide carousel-fade" data-interval="5000" data-ride="carousel">
+                    <div id="carouselFade" class="carousel slide carousel-fade" data-interval="3000" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <a href="@Url.Action("Index", "Home")">
@@ -34,11 +35,11 @@
                                 </a>
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselFade" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" href="#carouselFade" style="display:none" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="carousel-control-next" href="#carouselFade" role="button" data-slide="next">
+                        <a class="carousel-control-next" href="#carouselFade" style="display:none"  role="button" data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
