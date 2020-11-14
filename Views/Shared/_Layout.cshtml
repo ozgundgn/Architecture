@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" lang="tr-TR">
+<html xmlns:og="https://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" lang="tr-TR">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -58,7 +58,7 @@
     <div class="wrapper">
         <nav class="main-nav mobile-nav">
             <ul>
-                <li class="page-collection active-link">
+                <li class="page-collection">
                     <a href="index.html">ANASAYFA</a>
                 </li>
                 <li class="mobile-folder">
@@ -126,7 +126,7 @@
         <div id="logo" data-content-field="site-title">
             <h1 class="logo image">
                 <a href="@Url.Action("Index", "Home")">
-                    <img src="@Url.Content("~/Content/Images/mahalyeni.jpg")" alt="Mahal Mimarlık Tasarımları" />
+                    <img src="@Url.Content("~/Content/Images/Home/duranlogo.jpg")" alt="Mahal Mimarlık Tasarımları" />
                 </a>
             </h1>
             <div class="logo-subtitle">/BENZERSİZ TASARIMLAR OLUŞTURUYORUZ/</div>
@@ -137,7 +137,7 @@
         <div id="topNav" data-content-field="navigation">
             <nav id="mainNavigation" class="main-nav dropdown-click desktop-nav">
                 <ul>
-                    <li class="page-collection active-link">
+                    <li class="page-collection">
                         <a href="@Url.Action("Index", "Home")">MAHAL MİMARLIK</a>
                     </li>
                     <li class="page-collection folder-collection folder">
@@ -291,10 +291,10 @@
 </html>
 <script>
     $("li.page-collection").on("click",
-        function() {
-            if (!$(this).hasClass("active-link")) {
+        function () {
+
                 $("li.page-collection").removeClass("active-link");
                 $(this).addClass("active-link");
-            }
+                
         })
 </script>
