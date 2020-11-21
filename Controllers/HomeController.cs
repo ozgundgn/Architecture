@@ -36,6 +36,10 @@ namespace Architecture.Controllers
         {
             return View();
         }
+        public ActionResult Media()
+        {
+            return View();
+        }
         
     }
 }

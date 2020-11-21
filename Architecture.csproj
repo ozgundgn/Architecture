@@ -131,8 +131,6 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Images\DESIGN_ARCHITECTURE.png" />
     <Content Include="Content\Images\insights-button5d45.png" />
-    <Content Include="Content\Images\mahalyeni.jpg" />
-    <Content Include="Content\Images\murron-logo---large2acd.png" />
     <Content Include="Content\Images\profile.jpeg" />
     <Content Include="Content\site8696.css" />
     <Content Include="favicon.ico" />
@@ -276,6 +274,7 @@
     <Content Include="Views\Home\References.cshtml" />
     <Content Include="Views\Home\Projects.cshtml" />
     <Content Include="Views\Home\Designs.cshtml" />
+    <Content Include="Views\Home\Media.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

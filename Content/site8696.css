@@ -3528,7 +3528,7 @@ html.squarespace-damask.is-expanded .sqs-block-video .sqsVideoBlockPlaceholder[d
     }
 
 html .sqs-block.sqs-block-editable:not(.sqs-block-editing) {
-    cursor: url(http://static1.squarespace.com/universal/images-v6/icons/grab.cur) 8 8, move;
+    cursor: url(https://static1.squarespace.com/universal/images-v6/icons/grab.cur) 8 8, move;
     cursor: -webkit-grab;
     cursor: -moz-grab
 }
@@ -3538,7 +3538,7 @@ html .sqs-block.sqs-block-editable:not(.sqs-block-editing) {
     }
 
 html.sqs-dragging-block * {
-    cursor: url(http://static1.squarespace.com/universal/images-v6/icons/grabbing.cur) 8 8, move;
+    cursor: url(https://static1.squarespace.com/universal/images-v6/icons/grabbing.cur) 8 8, move;
     cursor: -webkit-grabbing;
     cursor: -moz-grabbing
 }
@@ -4378,7 +4378,7 @@ body.sqs-lightbox-open {
 @font-face {
     font-family: 'squarespace-ui-font';
     src: url('http://assets.squarespace.com/universal/fonts/squarespace-ui-font.eot');
-    src: url('http://assets.squarespace.com/universal/fonts/squarespace-ui-font.eot?#iefix') format('embedded-opentype'), url('http://assets.squarespace.com/universal/fonts/squarespace-ui-font.svg#squarespace-ui-font') format('svg'), url('http://assets.squarespace.com/universal/fonts/squarespace-ui-font.woff') format('woff'), url('http://assets.squarespace.com/universal/fonts/squarespace-ui-font.ttf') format('truetype');
+    src: url('http://assets.squarespace.com/universal/fonts/squarespace-ui-font.eot?#iefix') format('embedded-opentype'), url('https://assets.squarespace.com/universal/fonts/squarespace-ui-font.svg#squarespace-ui-font') format('svg'), url('https://assets.squarespace.com/universal/fonts/squarespace-ui-font.woff') format('woff'), url('https://assets.squarespace.com/universal/fonts/squarespace-ui-font.ttf') format('truetype');
     font-weight: normal;
     font-style: normal
 }
@@ -15917,7 +15917,7 @@ body:not(.tweak-product-quick-view-lightbox-show-close-button) .sqs-product-quic
 @font-face {
     font-family: 'social-icon-font';
     src: url('http://assets.squarespace.com/universal/fonts/social-20141119/social-icon-font.eot');
-    src: url('http://assets.squarespace.com/universal/fonts/social-20141119/social-icon-font.eot?#iefix') format('embedded-opentype'), url('http://assets.squarespace.com/universal/fonts/social-20141119/social-icon-font.woff') format('woff'), url('http://assets.squarespace.com/universal/fonts/social-20141119/social-icon-font.ttf') format('truetype'), url('http://assets.squarespace.com/universal/fonts/social-20141119/social-icon-font.svg#social-icon-font') format('svg');
+    src: url('http://assets.squarespace.com/universal/fonts/social-20141119/social-icon-font.eot?#iefix') format('embedded-opentype'), url('https://assets.squarespace.com/universal/fonts/social-20141119/social-icon-font.woff') format('woff'), url('https://assets.squarespace.com/universal/fonts/social-20141119/social-icon-font.ttf') format('truetype'), url('http://assets.squarespace.com/universal/fonts/social-20141119/social-icon-font.svg#social-icon-font') format('svg');
     font-weight: normal;
     font-style: normal
 }
@@ -18561,7 +18561,7 @@ nav ol {
 }
 
 #canvasWrapper {
-    max-width: 2400px
+    max-width: 2400px;
 }
 
 #canvas {
@@ -19497,7 +19497,7 @@ body.sqs-style-mode {
     }
 
     .collection-type-blog.blog-sidebar-left .main-content {
-        margin-left: :0
+        margin-left:0
     }
 
     #canvas {

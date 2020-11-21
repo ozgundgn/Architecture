@@ -35,3 +35,6 @@ textarea {
   
     transition: transform 8s ease-in-out, -webkit-transform 0.6s ease-in-out;
 }
+.menu-open {
+    height: 700px !important;
+}
