@@ -34,6 +34,8 @@ namespace Architecture
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      "~/Content/all.css",
+                      "~/Content/font-awesome.css", 
                       "~/Content/site8696.css",
                       "~/Content/site.css"));
         }

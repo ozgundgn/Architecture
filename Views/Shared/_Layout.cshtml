@@ -173,16 +173,22 @@
                                     <div class="subnav">
                                         <ul>
                                             <li class="external-link">
-                                                <a href="@Url.Action("Projects", "Home",new {type=""})">Amagatall</a>
+                                                <a href="@Url.Action("Projects", "Home",new {type=""})">İç Mimari</a>
                                             </li>
                                             <li class="external-link">
                                                 <a href="@Url.Action("Projects", "Home",new {type=""})">Birkenlund</a>
                                             </li>
                                             <li class="external-link">
-                                                <a href="@Url.Action("Projects", "Home",new {type=""})">>VED SØEN</a>
+                                                <a href="@Url.Action("Projects", "Home",new {type=""})">VED SØEN</a>
                                             </li>
                                         </ul>
                                     </div>
+                                </li>
+                                <li class="page-collection">
+                                    <a href="@Url.Action("Designs", "Home")"> E-TASARIM</a>
+                                </li>
+                                <li class="page-collection">
+                                    <a href="@Url.Action("Media", "Home")"> BASIN</a>
                                 </li>
                                 <li class="page-collection">
                                     <a href="@Url.Action("References", "Home")">REFERANSLAR</a>
@@ -191,11 +197,11 @@
                                     <a href="@Url.Action("Contact", "Home")">İLETİŞİM</a>
                                 </li>
                                 <li class=" external-link">
-                                    <a href="https://bat-chihuahua-tcz8.squarespace.com/" target="_blank"><img src="../../Content/Images/insights-button5d45.png" alt="Smiley face" height="" width="120"></a>
+                                    <a href="https://www.naturalinsaat.com" target="_blank"><img src="../../Content/Images/insight-button-mahal.jpeg" alt="Smiley face" height="" width="120"></a>
                                 </li>
-                                <li class=" external-link">
+                                @*<li class=" external-link">
                                     <a href="https://www.instagram.com/mahalmimarlik/" target="_blank">INSTAGRAM</a>
-                                </li>
+                                </li>*@
                                 @*<li class=" external-link">
                                         <a href="press.html">Press</a>
                                     </li>*@
@@ -259,26 +265,24 @@
                 window.ImageLoader.bootstrap({}, document);
             }
             console.log(localStorage);
+            setTimeout(localStorage.clear, 5400000);
         })();
         document.onreadystatechange = function(e)
         {
             if (document.readyState !== 'complete')
             {
-                if (localStorage.getItem("hasRunCodeBefore") === null) {
+                if (localStorage.getItem("hasRunCod") === null) {
                     $("#canvasWrapper").css("display", "none");
                     $(".loaderImage").css("display", "block");
-                    alert('fgdgd');
+              
                 }
             }
         };
-        window.CloseEvent=function() {
-            localStorage.clear();
-        }
         
         window.onload = function () {
-            if (localStorage.getItem("hasRunCodeBefore") === null) {
+            if (localStorage.getItem("hasRunCod") === null) {
                 logoShow();
-                localStorage.setItem("hasRunCodeBefore", true);
+                localStorage.setItem("hasRunCod", true);
             }
         }
 
