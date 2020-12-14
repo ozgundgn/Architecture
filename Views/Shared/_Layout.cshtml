@@ -32,13 +32,13 @@
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
-    @Scripts.Render("~/bundles/index4be1")
     @RenderSection("scripts", required: false)
     @Scripts.Render("~/bundles/modernizr")
 
     @Scripts.Render("~/bundles/performance")
     <script type="text/javascript">try { Typekit.load(); } catch (e) { }</script>
     @Scripts.Render("~/bundles/common")
+    @Scripts.Render("~/bundles/site")
     <script type="text/javascript">SQUARESPACE_ROLLUPS = {};</script>
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:700,400" />
     <script type="text/javascript">
@@ -90,13 +90,13 @@
                                 <a>PROJELER</a>
                                 <ul>
                                     <li class=" folder external-link">
-                                        <a href="@Url.Action("Projects", "Home",new {type=""})">İç Mimari</a>
+                                        <a href="@Url.Action("IcMimari", "Home",new {type=""})">İç Mimari</a>
                                     </li>
                                     <li class=" folder external-link">
-                                        <a href="@Url.Action("Projects", "Home",new {type=""})">Birkenlund</a>
+                                        <a href="@Url.Action("Projects", "Home",new {type=""})">Mimari - Ruhsat</a>
                                     </li>
                                     <li class=" folder external-link">
-                                        <a href="@Url.Action("Projects", "Home",new {type=""})">VED SØEN</a>
+                                        <a href="@Url.Action("Projects", "Home",new {type=""})">Restorasyon</a>
                                     </li>
                                 </ul>
                             </li>
@@ -173,7 +173,7 @@
                                     <div class="subnav">
                                         <ul>
                                             <li class="external-link">
-                                                <a href="@Url.Action("Projects", "Home",new {type=""})">İç Mimari</a>
+                                                <a href="@Url.Action("IcMimari", "Home",new {type=""})">İç Mimari</a>
                                             </li>
                                             <li class="external-link">
                                                 <a href="@Url.Action("Projects", "Home",new {type=""})">Birkenlund</a>

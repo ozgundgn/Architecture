@@ -31,6 +31,10 @@ namespace Architecture.Controllers
         {
             return View();
         }
+        public ActionResult IcMimari()
+        {
+            return View();
+        }  
         public ActionResult Projects()
         {
             return View();

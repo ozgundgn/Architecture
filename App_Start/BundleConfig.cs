@@ -27,9 +27,14 @@ namespace Architecture
             bundles.Add(new ScriptBundle("~/bundles/performance").Include(
                 "~/Scripts/performance.js",
                 "~/Scripts/performance-d006a09b586a985da86bd-min.en-US.js"));
-            bundles.Add(new ScriptBundle("~/bundles/index4be1").Include(
-                "~/Scripts/index4be1.js"));
-            
+
+            //bundles.Add(new ScriptBundle("~/bundles/index4be1").Include(
+            //    "~/Scripts/index4be1.js"
+            //    ));
+
+            bundles.Add(new ScriptBundle("~/bundles/site").Include(
+                      "~/Scripts/site.js"
+                ));
 
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
