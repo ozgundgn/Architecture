@@ -162,10 +162,10 @@
     <Content Include="Content\Images\IcMimari\Epo Kimya\3.jpg" />
     <Content Include="Content\Images\IcMimari\Epo Kimya\4.jpg" />
     <Content Include="Content\Images\IcMimari\Epo Kimya\5.jpg" />
-    <Content Include="Content\Images\IcMimari\Erenköy Apartman Dairesi\1.jpg" />
-    <Content Include="Content\Images\IcMimari\Erenköy Apartman Dairesi\klasik banyo.jpg" />
-    <Content Include="Content\Images\IcMimari\Erenköy Apartman Dairesi\klasik banyo2.jpg" />
-    <Content Include="Content\Images\IcMimari\Erenköy Apartman Dairesi\klasik mutfak2a %281%29.jpg" />
+    <Content Include="Content\Images\IcMimari\Erenköy Apartman\1.jpg" />
+    <Content Include="Content\Images\IcMimari\Erenköy Apartman\klasik banyo.jpg" />
+    <Content Include="Content\Images\IcMimari\Erenköy Apartman\klasik banyo2.jpg" />
+    <Content Include="Content\Images\IcMimari\Erenköy Apartman\klasik mutfak2a %281%29.jpg" />
     <Content Include="Content\Images\IcMimari\Feneryolu Apartman Dairesi\1.jpg" />
     <Content Include="Content\Images\IcMimari\Feneryolu Apartman Dairesi\2.jpg" />
     <Content Include="Content\Images\IcMimari\Feneryolu Apartman Dairesi\3.jpg" />
@@ -313,7 +313,7 @@
     <Content Include="Content\Images\IcMimari\Chefs Döner\Chefs Döner.docx" />
     <Content Include="Content\Images\IcMimari\E.T. Evi\ET Evi.docx" />
     <Content Include="Content\Images\IcMimari\Epo Kimya\Epo Kimya.docx" />
-    <Content Include="Content\Images\IcMimari\Erenköy Apartman Dairesi\Erenköy Daire Tasarımı.docx" />
+    <Content Include="Content\Images\IcMimari\Erenköy Apartman\Erenköy Daire Tasarımı.docx" />
     <Content Include="Content\Images\IcMimari\Feneryolu Apartman Dairesi\Feneryolu Daire Tasarımı.docx" />
     <Content Include="Content\Images\IcMimari\Fuar Stand Tasarımı\Fuar Stant.docx" />
     <Content Include="Content\Images\IcMimari\Komedi Dükkanı - CKM\KOMEDİ DÜKKANI SAHNE TASARIMI.docx" />
