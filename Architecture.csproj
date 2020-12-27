@@ -166,15 +166,6 @@
     <Content Include="Content\Images\IcMimari\Feneryolu Apartman\3.jpg" />
     <Content Include="Content\Images\IcMimari\Feneryolu Apartman\4.jpg" />
     <Content Include="Content\Images\IcMimari\Feneryolu Apartman\5.jpg" />
-    <Content Include="Content\Images\IcMimari\Fuar Stand Tasarımı\1.JPG" />
-    <Content Include="Content\Images\IcMimari\Fuar Stand Tasarımı\2.jpg" />
-    <Content Include="Content\Images\IcMimari\Fuar Stand Tasarımı\3.jpg" />
-    <Content Include="Content\Images\IcMimari\Fuar Stand Tasarımı\4.JPG" />
-    <Content Include="Content\Images\IcMimari\Fuar Stand Tasarımı\5.jpg" />
-    <Content Include="Content\Images\IcMimari\Fuar Stand Tasarımı\6.jpg" />
-    <Content Include="Content\Images\IcMimari\Fuar Stand Tasarımı\7.jpg" />
-    <Content Include="Content\Images\IcMimari\Fuar Stand Tasarımı\8.JPG" />
-    <Content Include="Content\Images\IcMimari\Fuar Stand Tasarımı\9.jpg" />
     <Content Include="Content\Images\IcMimari\Fuar Stand\1.JPG" />
     <Content Include="Content\Images\IcMimari\Fuar Stand\2.jpg" />
     <Content Include="Content\Images\IcMimari\Fuar Stand\3.jpg" />
@@ -374,7 +365,6 @@
     <Content Include="Content\Images\IcMimari\Chefs Döner\Chefs Döner.docx" />
     <Content Include="Content\Images\IcMimari\E.T. Evi\ET Evi.docx" />
     <Content Include="Content\Images\IcMimari\Epo Kimya\Epo Kimya.docx" />
-    <Content Include="Content\Images\IcMimari\Fuar Stand\Fuar Stant.docx" />
     <Content Include="Content\Images\IcMimari\Komedi Dükkanı - CKM\KOMEDİ DÜKKANI SAHNE TASARIMI.docx" />
     <Content Include="Content\Images\IcMimari\Kozyatağı Tasarım Ofisi\Kozyatağı Tasarım Ofisi Tasarımı.docx" />
     <Content Include="Content\Images\IcMimari\Mahal Mimarlık Ofis\MAHAL Mimarlık Ofis Tasarımı.docx" />
@@ -387,7 +377,7 @@
     <Content Include="Content\Images\IcMimari\İthaki Kafe\İthaki KAFE.docx" />
     <Content Include="Content\Images\IcMimari\İthaki Yayın Evi\İthaki YAYINEVİ.docx" />
     <Content Include="Content\Images\IcMimari\Erenköy Apartman\Erenköy Daire Tasarımı.docx" />
-    <Content Include="Content\Images\IcMimari\Fuar Stand Tasarımı\Fuar Stant.docx" />
+    <Content Include="Content\Images\IcMimari\Fuar Stand\Fuar Stant.docx" />
     <Content Include="Content\Images\IcMimari\Feneryolu Apartman\Feneryolu Daire Tasarımı.docx" />
     <Content Include="Content\Images\mimari - ruhsat\Avcılar Apartman\avcılar.docx" />
     <Content Include="Content\Images\mimari - ruhsat\Bodrum Villa\bodrum villa.docx" />
