@@ -1,7 +1,4 @@
 ﻿// Get the modal
-$(function () {
-
-});
 
 function loadZoomImageModel(el) {
 
@@ -27,3 +24,5 @@ function loadZoomImageModel(el) {
         modal.style.display = "none";
     }
 }
+
+

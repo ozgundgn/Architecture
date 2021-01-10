@@ -32,6 +32,9 @@ namespace Architecture
             //    "~/Scripts/index4be1.js"
             //    ));
 
+              bundles.Add(new ScriptBundle("~/bundles/popper").Include(
+                      "~/Scripts/umd/popper.min.js"
+                ));
             bundles.Add(new ScriptBundle("~/bundles/site").Include(
                       "~/Scripts/site.js"
                 ));

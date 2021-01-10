@@ -20391,3 +20391,27 @@ div #topNav a:focus {
         width: 100%;
     }
 }
+
+/* projeler için buttonlar */
+.projects_buttons {
+    border: 1px solid #1313133b;
+    padding: 7px !important;
+    margin: 2px;
+    cursor: pointer;
+    background-color: #222;
+    color: #f8f9fa !important;
+}
+#rowIcmimariNavigation {
+    display: flex;
+    flex-direction: row;
+}
+.projects_buttons_menu {
+    border: 1px solid #eee;
+    padding: 15px;
+    margin: 2px;
+    cursor: pointer;
+    background-color: white;
+    color: #000;
+    border-radius:5px
+}
+
