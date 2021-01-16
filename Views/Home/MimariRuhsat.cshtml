@@ -1,0 +1,1118 @@
+﻿
+@{
+    ViewBag.Title = "MimariRuhsat";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="col sqs-col-12 span-12">
+    <div>
+
+        <div id="topNav" data-content-field="navigation">
+            <nav class="main-nav dropdown-click">
+                <ul id="rowIcmimariNavigation" class="nav nav-tabs">
+                    <li class="page-collection nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-link projects_buttons" data-menu-sec="apartman" onclick="projeTuruSec(this)">APARTMAN</a>
+                    </li>
+                    <li class="page-collection folder-collection folder nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-link projects_buttons" data-menu-sec="villa" onclick="projeTuruSec(this)">VİLLA</a>
+                    </li>
+                    <li class="page-collection nav-item">
+                        <a class="nav-link dropdown-toggle nav-link projects_buttons" data-menu-sec="ishani" onclick="projeTuruSec(this)">İŞ HANI</a>
+                    </li>
+                    <li class="page-collection nav-item">
+                        <a class="nav-link nav-link projects_buttons" data-menu-sec="belediye_binasi" onclick="projeTuruSec(this)">BELEDİYE BİNASI</a>
+                    </li>
+                    <li class="page-collection nav-item">
+                        <a class="nav-link projects_buttons" data-menu-sec="otel" onclick="projeTuruSec(this)"> OTEL</a>
+                    </li>
+                    <li class="page-collection nav-item">
+                        <a class="nav-link projects_buttons" data-menu-sec="kultur_merkezi" onclick="projeTuruSec(this)">KÜLTÜR MERKEZİ</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="col sqs-col-12 projects_block" style=" margin-bottom: 3%;">
+            <a class="projects_buttons_menu" data-project-name="avcilar_aprt" data-menu="apartman" style="display:none">Avcılar Apartmanı</a>
+            <a class="projects_buttons_menu" data-project-name="feneryolu_aprt" data-menu="apartman" style="display:none">Feneryolu Apartmanı</a>
+            <a class="projects_buttons_menu" data-project-name="halicioglu_aprt" data-menu="apartman" style="display:none">Halıcıoğlu Apartmanı</a>
+            <a class="projects_buttons_menu" data-project-name="palmiye_aprt" data-menu="apartman" style="display:none">Palmiye Apartmanı</a>
+            <a class="projects_buttons_menu" data-project-name="sahrayicedid_aprt" data-menu="apartman" style="display:none">Sahrayıcedid Apartmanı</a>
+            <a class="projects_buttons_menu" data-project-name="selda_aprt" data-menu="apartman" style="display:none">Selda Apartmanı</a>
+        </div>
+        <div class="col sqs-col-12 projects_block">
+            <a class="projects_buttons_menu" data-project-name="safak_aprt" data-menu="apartman" style="display:none">Şafak Apartmanı</a>
+            <a class="projects_buttons_menu" data-project-name="sahin_aprt" data-menu="apartman" style="display:none">Şahin Apartmanı</a>
+            <a class="projects_buttons_menu" data-project-name="yonca_aprt" data-menu="apartman" style="display:none">Yonca Apartmanı</a>
+            <a class="projects_buttons_menu" data-project-name="bodrum_villa" data-menu="villa" style="display:none">Bodrum Villa</a>
+            <a class="projects_buttons_menu" data-project-name="silivri_villa" data-menu="villa" style="display:none">Silivri Villa</a>
+            <a class="projects_buttons_menu" data-project-name="halicioglu_ishani" data-menu="ishani" style="display:none">Halıcıoğlu İş Hanı</a>
+            <a class="projects_buttons_menu" data-project-name="inegol_belediye" data-menu="belediye_binasi" style="display:none">İnegöl Belediye Binası Önerisi</a>
+            <a class="projects_buttons_menu" data-project-name="konak_belediye" data-menu="belediye_binasi" style="display:none">Konak Belediye Binası Önerisi</a>
+            <a class="projects_buttons_menu" data-project-name="samir_otel" data-menu="otel" style="display:none">Samir Otel</a>
+            <a class="projects_buttons_menu" data-project-name="pasha_otel" data-menu="otel" style="display:none">Pasha Otel -  Kadıköy</a>
+            <a class="projects_buttons_menu" data-project-name="umraniye_kultur_merkezi" data-menu="kultur_merkezi" style="display:none">Ümraniye Kültür Merkezi</a>
+        </div>
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+    </div>
+    <!-- Avcılar Apart Txt-->
+    <div data-project="avcilar_aprt">
+        <div class="row sqs-row">
+            <div class="col sqs-col-12">
+                <div class="col sqs-col-4">
+                    <h2 style="white-space: pre-wrap;">PROJE: </h2>
+                    <h2 style="white-space: pre-wrap;">LOKASYON: </h2>
+                    <h2 style="white-space: pre-wrap;">YIL: </h2>
+                </div>
+                <div class="col sqs-col-8">
+                    <h2 style="white-space: pre-wrap;"><strong>AVCILAR APARTMAN PROJESİ  </strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>Avcılar / İstanbul /TÜRKİYE</strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>2020</strong></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+
+        <!-- A.U. Main İmage-->
+        <div class="sqs-block image-block sqs-block-image" data-block-type="5">
+            <div class="sqs-block-content">
+                <div class=" image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-none individual-animation-none individual-text-animation-none" data-test="image-block-inline-outer-wrapper">
+                    <figure class=" sqs-block-image-figure intrinsic " style="max-width: 2000.0px;">
+                        <div style="padding-bottom: 56.25%;" class="  image-block-wrapper has-aspect-ratio " data-animation-role="image">
+                            <noscript><img src="@Url.Content("~/Content/Images/mimari - ruhsat/Avcılar Apartman/1.jpg")" alt="" /></noscript>
+                            <img class="thumb-image" src="@Url.Content("~/Content/Images/IcMimari/A.U. evi/1.jpg")" style="left: 0%; top: -0.0151699%; width: 100%; height: 100.03%; position: absolute" data-image-dimensions="2000x1125" data-image-focal-point="0.5,0.5" alt="MAREN+FINAL+EDIT-7.jpg" data-load="false" data-image-id="5dc992d016757a6ba7a0109a" data-type="image" />
+                        </div>
+                    </figure>
+                </div>
+                <div class="sqs-block html-block mt-5 sqs-block-html" data-block-type="2">
+                    <div class="col sqs-col-7 span-7">
+                        <p class="" style="white-space: pre-wrap;">Avcılar’da bulunan ve kentsel dönüşüm kapsamında yenilenecek olan apartman projesinin dış cephe tasarımıdır.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1571932480061_180440">
+        <div class="sqs-block-content">&nbsp;</div>
+    </div>
+    <!-- Feneryolu Apartmanı -->
+    <div data-project="feneryolu_aprt">
+        <div class="row sqs-row">
+            <div class="col sqs-col-12">
+                <div class="col sqs-col-4">
+                    <h2 style="white-space: pre-wrap;">PROJE: </h2>
+                    <h2 style="white-space: pre-wrap;">LOKASYON: </h2>
+                    <h2 style="white-space: pre-wrap;">YIL: </h2>
+                </div>
+                <div class="col sqs-col-8">
+                    <h2 style="white-space: pre-wrap;"><strong>FENERYOLU APARTMAN PROJESİ </strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>Feneryolu / İstanbul /TÜRKİYE</strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>2019</strong></h2>
+                </div>
+            </div>
+        </div>
+        <!--Feneryolu Main İmage-->
+        <div class="sqs-block image-block sqs-block-image" data-block-type="5">
+            <div class="sqs-block-content">
+                <div class=" image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-none individual-animation-none individual-text-animation-none" data-test="image-block-inline-outer-wrapper">
+                    <figure class=" sqs-block-image-figure intrinsic " style="max-width: 2000.0px;">
+                        <div style="padding-bottom: 56.25%;" class="image-block-wrapper has-aspect-ratio " data-animation-role="image">
+                            <noscript><img src="@Url.Content("~/Content/Images/mimari - ruhsat/Feneryolu Apartman/1.jpg")" alt="" /></noscript>
+                            <img class="thumb-image" src="@Url.Content("~/Content/Images/mimari - ruhsat/Feneryolu Apartman/1.jpg")" style="left: 0%; top: -0.0151699%; width: 100%; height: 100.03%; position: absolute" data-image-dimensions="2000x1125" data-image-focal-point="0.5,0.5" alt="MAREN+FINAL+EDIT-7.jpg" data-load="false" data-image-id="5dc992d016757a6ba7a0109a" data-type="image" />
+                        </div>
+                    </figure>
+                </div>
+                <div class="sqs-block html-block mt-5 sqs-block-html" data-block-type="2">
+                    <div class="col sqs-col-7 span-7">
+                        <p class="" style="white-space: pre-wrap;"> Feneryolu, Kadıköy’de bulunan bina yenileme projesidir. Dış cephe çalışmaları ve sunum dosyaları tarafımızdan hazırlanmıştır.</p>
+                        <p class="" style="white-space: pre-wrap;"> Bununla birlikte belediye yönetmeliklerine uygun biçimde ruhsat projeleri hazırlanmış, belediyeden ruhsatı alınarak müteahhit firmaya teslim edilmiştir.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Feneryolu Image Gallery -->
+        <div class="col sqs-row">
+            <div class="col-md-12 mt-5">
+                <div class="mdb-lightbox">
+
+                    <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Feneryolu Apartman/2.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Feneryolu Apartman/3.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Feneryolu Apartman/4.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Feneryolu Apartman/5.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+    </div>
+
+    @*Halıcıoğlu Apartman*@
+    <div data-project="halicioglu_aprt">
+        <!-- E.T. Evi Main Txt-->
+        <div class="row sqs-row">
+            <div class="col sqs-col-12">
+                <div class="col sqs-col-4">
+                    <h2 style="white-space: pre-wrap;">PROJE: </h2>
+                    <h2 style="white-space: pre-wrap;">LOKASYON: </h2>
+                    <h2 style="white-space: pre-wrap;">YIL: </h2>
+                </div>
+                <div class="col sqs-col-8">
+                    <h2 style="white-space: pre-wrap;"><strong>HALICIOĞLU APARTMAN PROJESİ </strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>Halıcıoğlu / İstanbul /TÜRKİYE</strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>2014</strong></h2>
+                </div>
+            </div>
+        </div>
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+        <!-- Halıcıoğlu Apartman Main İmage-->
+        <div class="sqs-block image-block sqs-block-image" data-block-type="5">
+            <div class="sqs-block-content">
+                <div class=" image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-none individual-animation-none individual-text-animation-none" data-test="image-block-inline-outer-wrapper">
+                    <figure class=" sqs-block-image-figure intrinsic " style="max-width: 2000.0px;">
+                        <div style="padding-bottom: 56.25%;" class="  image-block-wrapper has-aspect-ratio " data-animation-role="image">
+                            <noscript><img src="@Url.Content("~/Content/Images/mimari - ruhsat/Halıcıoğlu Apartman/1.jpg")" alt="" /></noscript>
+                            <img class="thumb-image" src="@Url.Content("~/Content/Images/mimari - ruhsat/Halıcıoğlu Apartman/1.jpg")" style="left: 0%; top: -0.0151699%; width: 100%; height: 100.03%; position: absolute" data-image-dimensions="2000x1125" data-image-focal-point="0.5,0.5" alt="MAREN+FINAL+EDIT-7.jpg" data-load="false" data-image-id="5dc992d016757a6ba7a0109a" data-type="image" />
+                        </div>
+                    </figure>
+                </div>
+                <div class="sqs-block html-block mt-5 sqs-block-html" data-block-type="2">
+                    <div class="col sqs-col-7 span-7">
+                        <p class="" style="white-space: pre-wrap;">Halıcıoğlu, Beyoğlu’nda bulunan bina yenileme projesidir.</p>
+                        <p class="" style="white-space: pre-wrap;">Dış cephe çalışmaları ve sunum dosyaları tarafımızdan hazırlanmıştır. Bununla birlikte belediye yönetmeliklerine uygun biçimde ruhsat projeleri sunulmuş, belediyeden ruhsatı alınmıştır.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Halıcıoğlu Apartman Image Gallery -->
+        <div class="col sqs-row">
+            <div class="col-md-12 mt-5">
+                <div class="mdb-lightbox">
+                    <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Halıcıoğlu Apartman/2.png")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Halıcıoğlu Apartman/3.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1571932480061_180440">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+    </div>
+    <!-- Palmiye_aprt Txt-->
+    <div data-project="palmiye_aprt">
+        <!-- palmiye_aprt Txt-->
+        <div class="row sqs-row">
+            <div class="col sqs-col-12">
+                <div class="col sqs-col-4">
+                    <h2 style="white-space: pre-wrap;">PROJE: </h2>
+                    <h2 style="white-space: pre-wrap;">LOKASYON: </h2>
+                    <h2 style="white-space: pre-wrap;">YIL: </h2>
+                </div>
+                <div class="col sqs-col-8">
+                    <h2 style="white-space: pre-wrap;"><strong>PALMİYE APARTMANI PROJESİ </strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>Suadiye / İstanbul /TÜRKİYE</strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>2016</strong></h2>
+                </div>
+            </div>
+        </div>
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+        <!-- Palmiye Apartmanı İmage-->
+        <div class="sqs-block image-block sqs-block-image" data-block-type="5">
+            <div class="sqs-block-content">
+                <div class=" image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-none individual-animation-none individual-text-animation-none" data-test="image-block-inline-outer-wrapper">
+                    <figure class=" sqs-block-image-figure intrinsic " style="max-width: 2000.0px;">
+                        <div style="padding-bottom: 56.25%;" class="  image-block-wrapper has-aspect-ratio " data-animation-role="image">
+                            <noscript><img src="@Url.Content("~/Content/Images/mimari - ruhsat/Palmiye Apartmanı/1.jpg")" alt="" /></noscript>
+                            <img class="thumb-image" src="@Url.Content("~/Content/Images/mimari - ruhsat/Palmiye Apartmanı/1.jpg")" style="left: 0%; top: -0.0151699%; width: 100%; height: 100.03%; position: absolute" data-image-dimensions="2000x1125" data-image-focal-point="0.5,0.5" alt="MAREN+FINAL+EDIT-7.jpg" data-load="false" data-image-id="5dc992d016757a6ba7a0109a" data-type="image" />
+                        </div>
+                    </figure>
+                </div>
+                <div class="sqs-block html-block mt-5 sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1571932480061_125616">
+                    <div class="col sqs-col-7 span-7">
+                        <p class="" style="white-space: pre-wrap;">Suadiye, Kadıköy’de bulunan bina yenileme projesidir. Dış cephe çalışmaları ve sunum dosyaları tarafımızdan hazırlanmıştır. </p>
+                        <p class="" style="white-space: pre-wrap;">Bununla birlikte belediye yönetmeliklerine uygun biçimde ruhsat projeleri hazırlanmış, belediyeden ruhsatı alınarak müteahhit firmaya teslim edilmiştir.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Palmiye Apartmanı Image Gallery -->
+        <div class="col sqs-row">
+            <div class="col-md-12 mt-5">
+                <div id="mdb-lightbox-ui"></div>
+
+                <div class="mdb-lightbox">
+
+                    <div class="sqs-block" data-block-type="21">
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Palmiye Apartmanı/2.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Palmiye Apartmanı/3.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+
+                        <figure class="sqs-col-12 span-12" style="padding-right: 6%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Palmiye Apartmanı/4.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Palmiye Apartmanı/5.jpg")" style="padding: 15px" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Palmiye Apartmanı/6.jpg")" style="padding: 15px" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                        <figure class="sqs-col-12 span-12" style="padding-right: 6%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Palmiye Apartmanı/7.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+    </div>
+    <!-- Sahrayıcedid Apartman-->
+    <div data-project="sahrayicedid_aprt">
+        <!-- Sahrayıcedid Apartman Main Txt-->
+        <div class="row sqs-row">
+            <div class="col sqs-col-12">
+                <div class="col sqs-col-4">
+                    <h2 style="white-space: pre-wrap;">PROJE: </h2>
+                    <h2 style="white-space: pre-wrap;">LOKASYON: </h2>
+                    <h2 style="white-space: pre-wrap;">YIL: </h2>
+                </div>
+                <div class="col sqs-col-8">
+                    <h2 style="white-space: pre-wrap;"><strong>SAHRAYICEDİD APARTMAN PROJESİ </strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>Sahrayıcedid / İstanbul /TÜRKİYE</strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>2016</strong></h2>
+                </div>
+            </div>
+        </div>
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+        <!-- Sahrayıcedid Apartman Main İmage-->
+        <div class="sqs-block image-block sqs-block-image" data-block-type="5">
+            <div class="sqs-block-content">
+                <div class=" image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-none individual-animation-none individual-text-animation-none" data-test="image-block-inline-outer-wrapper">
+                    <figure class=" sqs-block-image-figure intrinsic " style="max-width: 2000.0px;">
+                        <div style="padding-bottom: 56.25%;" class="  image-block-wrapper has-aspect-ratio " data-animation-role="image">
+                            <noscript><img src="@Url.Content("~/Content/Images/mimari - ruhsat/Sahrayıcedid Apartman/1.jpg")" alt="" /></noscript>
+                            <img class="thumb-image" src="@Url.Content("~/Content/Images/mimari - ruhsat/Sahrayıcedid Apartman/1.jpg")" style="left: 0%; top: -0.0151699%; width: 100%; height: 100.03%; position: absolute" data-image-dimensions="2000x1125" data-image-focal-point="0.5,0.5" alt="MAREN+FINAL+EDIT-7.jpg" data-load="false" data-image-id="5dc992d016757a6ba7a0109a" data-type="image" />
+                        </div>
+                    </figure>
+                </div>
+                <div class="sqs-block html-block mt-5 sqs-block-html" data-block-type="2">
+                    <div class="col sqs-col-7 span-7">
+                        <p class="" style="white-space: pre-wrap;">Sahrayıcedid, Kadıköy’de bulunan bina yenileme projesidir. Dış cephe çalışmaları ve sunum dosyaları tarafımızdan hazırlanmıştır.</p>
+                        <p class="" style="white-space: pre-wrap;">Bununla birlikte belediye yönetmeliklerine uygun biçimde ruhsat projeleri hazırlanmış, belediyeden ruhsatı alınarak müteahhit firmaya teslim edilmiştir.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Sahrayıcedid Apartman Image Gallery -->
+        <div class="col sqs-row">
+            <div class="col-md-12 mt-5">
+                <div id="mdb-lightbox-ui"></div>
+
+                <div class="mdb-lightbox">
+
+                    <div class="sqs-block" data-block-type="21">
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Sahrayıcedid Apartman/2.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/IcMimari/Erenköy Apartman/3.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+    </div>
+    <!-- Selda Apartman-->
+    <div data-project="selda_aprt">
+        <!-- FENERYOLU  Main Txt-->
+        <div class="row sqs-row">
+            <div class="col sqs-col-12">
+                <div class="col sqs-col-4">
+                    <h2 style="white-space: pre-wrap;">PROJE: </h2>
+                    <h2 style="white-space: pre-wrap;">LOKASYON: </h2>
+                    <h2 style="white-space: pre-wrap;">YIL: </h2>
+                </div>
+                <div class="col sqs-col-8">
+                    <h2 style="white-space: pre-wrap;"><strong>SELDA APARTMANI PROJESİ  </strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>Feneryolu / İstanbul /TÜRKİYE</strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>2013</strong></h2>
+                </div>
+            </div>
+        </div>
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+        <!-- Selda Apartman Main İmage-->
+        <div class="sqs-block image-block sqs-block-image" data-block-type="5">
+            <div class="sqs-block-content">
+                <div class=" image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-none individual-animation-none individual-text-animation-none" data-test="image-block-inline-outer-wrapper">
+                    <figure class=" sqs-block-image-figure intrinsic " style="max-width: 2000.0px;">
+                        <div style="padding-bottom: 56.25%;" class="  image-block-wrapper has-aspect-ratio " data-animation-role="image">
+                            <noscript><img src="@Url.Content("~/Content/Images/mimari - ruhsat/Selda Apartmanı/1.jpg")" alt="" /></noscript>
+                            <img class="thumb-image" src="@Url.Content("~/Content/Images/mimari - ruhsat/Selda Apartmanı/1.jpg")" style="left: 0%; top: -0.0151699%; width: 100%; height: 100.03%; position: absolute" data-image-dimensions="2000x1125" data-image-focal-point="0.5,0.5" alt="MAREN+FINAL+EDIT-7.jpg" data-load="false" data-image-id="5dc992d016757a6ba7a0109a" data-type="image" />
+                        </div>
+                    </figure>
+                </div>
+                <div class="sqs-block html-block mt-5 sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1571932480061_125616">
+                    <div class="col sqs-col-7 span-7">
+                        <p class="" style="white-space: pre-wrap;">   Feneryolu, Kadıköy’de bulunan bina yenileme projesinin teklif dosyasıdır. Dış cephe çalışmaları ve sunum dosyaları tarafımızdan hazırlanmıştır. Bununla birlikte belediye yönetmeliklerine uygun biçimde kat planları çizilmiş, hesapları yapılmıştır.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Selda Apartman Image Gallery -->
+        <div class="col sqs-row">
+            <div class="col-md-12 mt-5">
+                <div class="mdb-lightbox">
+
+                    <div class="sqs-block" data-block-type="21">
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Selda Apartmanı/2.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Selda Apartmanı/3.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1571932480061_180440">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+    </div>
+
+    <!-- Safak Apartmanı -->
+    <div data-project="safak_aprt">
+        <!-- Fuar Stand Main Txt-->
+        <div class="row sqs-row">
+            <div class="col sqs-col-12">
+
+                <div class="col sqs-col-4">
+                    <h2 style="white-space: pre-wrap;">PROJE: </h2>
+                    <h2 style="white-space: pre-wrap;">LOKASYON: </h2>
+                    <h2 style="white-space: pre-wrap;">YIL: </h2>
+                </div>
+                <div class="col sqs-col-8">
+                    <h2 style="white-space: pre-wrap;"><strong>ŞAFAK APARTMANI PROJESİ  </strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>Ziverbey / İstanbul /TÜRKİYE</strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>2016</strong></h2>
+                </div>
+            </div>
+        </div>
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+        <!-- Fuar Stand Main İmage-->
+        <div class="sqs-block image-block sqs-block-image" data-block-type="5">
+            <div class="sqs-block-content">
+                <div class=" image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-none individual-animation-none individual-text-animation-none" data-test="image-block-inline-outer-wrapper">
+                    <figure class=" sqs-block-image-figure intrinsic " style="max-width: 2000.0px;">
+                        <div style="padding-bottom: 56.25%;" class="  image-block-wrapper has-aspect-ratio " data-animation-role="image">
+                            <noscript><img src="@Url.Content("~/Content/Images/mimari - ruhsat/Şafak Apartmanı/1.jpg")" alt="" /></noscript>
+                            <img class="thumb-image" src="@Url.Content("~/Content/Images/mimari - ruhsat/Şafak Apartmanı/1.jpg")" style="left: 0%; top: -0.0151699%; width: 100%; height: 100.03%; position: absolute" data-image-dimensions="2000x1125" data-image-focal-point="0.5,0.5" alt="MAREN+FINAL+EDIT-7.jpg" data-load="false" data-image-id="5dc992d016757a6ba7a0109a" data-type="image" />
+                        </div>
+                    </figure>
+                </div>
+                <div class="sqs-block html-block mt-5 sqs-block-html" data-block-type="2">
+                    <div class="col sqs-col-7 span-7">
+                        <p class="" style="white-space: pre-wrap;"> Ziverbey, Kadıköy’de bulunan bina yenileme projesinin teklif dosyasıdır. Dış cephe çalışmaları ve sunum dosyaları tarafımızdan hazırlanmıştır. Bununla birlikte belediye yönetmeliklerine uygun biçimde kat planları çizilmiş, hesapları yapılmıştır. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Şafak Apartmanı Image Gallery -->
+        <div class="col sqs-row">
+            <div class="col-md-12 mt-5">
+                <div class="mdb-lightbox">
+                    <div class="sqs-block" data-block-type="21">
+
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Şafak Apartmanı/2.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Şafak Apartmanı/3.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1571932480061_180440">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+    </div>
+
+    <!--  Şahin Apartmanı -->
+    <div data-project="sahin_aprt">
+        <!--  Şahin Apartmanı  Main Txt-->
+        <div class="row sqs-row">
+            <div class="col sqs-col-12">
+
+                <div class="col sqs-col-4">
+                    <h2 style="white-space: pre-wrap;">PROJE: </h2>
+                    <h2 style="white-space: pre-wrap;">LOKASYON: </h2>
+                    <h2 style="white-space: pre-wrap;">YIL: </h2>
+                </div>
+                <div class="col sqs-col-8">
+                    <h2 style="white-space: pre-wrap;"><strong>ŞAHİN APARTMANI PROJESİ  </strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>Kozyatağı / İstanbul /TÜRKİYE</strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>2015</strong></h2>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+        <!-- Şahin Apartmanı  Main İmage-->
+        <div class="sqs-block image-block sqs-block-image" data-block-type="5">
+            <div class="sqs-block-content">
+                <div class=" image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-none individual-animation-none individual-text-animation-none" data-test="image-block-inline-outer-wrapper">
+                    <figure class=" sqs-block-image-figure intrinsic " style="max-width: 2000.0px;">
+                        <div style="padding-bottom: 56.25%;" class="  image-block-wrapper has-aspect-ratio " data-animation-role="image">
+                            <noscript><img src="@Url.Content("~/Content/Images/mimari - ruhsat/Şahin Apartmanı/1.jpg")" alt="" /></noscript>
+                            <img class="thumb-image" src="@Url.Content("~/Content/Images/mimari - ruhsat/Şahin Apartmanı/1.jpg")" style="left: 0%; top: -0.0151699%; width: 100%; height: 100.03%; position: absolute" data-image-dimensions="2000x1125" data-image-focal-point="0.5,0.5" alt="MAREN+FINAL+EDIT-7.jpg" data-load="false" data-image-id="5dc992d016757a6ba7a0109a" data-type="image" />
+                        </div>
+                    </figure>
+                </div>
+                <div class="sqs-block html-block mt-5 sqs-block-html" data-block-type="2">
+                    <div class="col sqs-col-7 span-7">
+                        <p class="" style="white-space: pre-wrap;"> Kozyatağı, Kadıköy’de bulunan bina yenileme projesidir. Dış cephe çalışmaları ve sunum dosyaları tarafımızdan hazırlanmıştır. Bununla birlikte belediye yönetmeliklerine uygun biçimde ruhsat projeleri hazırlanmış, belediyeden ruhsatı alınarak müteahhit firmaya teslim edilmiştir.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Şahin Apartmanı  Image Gallery -->
+        <div class="col sqs-row">
+            <div class="col-md-12 mt-5">
+                <div class="mdb-lightbox">
+                    <div class="sqs-block" data-block-type="21">
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Şahin Apartmanı/2.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Şahin Apartmanı/3.jpeg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+    </div>
+    <!-- Yonca Apartmanı Main Txt-->
+    <div data-project="yonca_aprt">
+        <!-- Yonca Apartmanı Main Txt-->
+        <div class="row sqs-row">
+            <div class="col sqs-col-12">
+
+                <div class="col sqs-col-4">
+                    <h2 style="white-space: pre-wrap;">PROJE: </h2>
+                    <h2 style="white-space: pre-wrap;">LOKASYON: </h2>
+                    <h2 style="white-space: pre-wrap;">YIL: </h2>
+                </div>
+                <div class="col sqs-col-8">
+                    <h2 style="white-space: pre-wrap;"><strong>YONCA APARTMANI PROJESİ  </strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>Göztepe / İstanbul /TÜRKİYE</strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>2017</strong></h2>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+        <!-- Yonca Apartmanı Main İmage-->
+        <div class="sqs-block image-block sqs-block-image" data-block-type="5">
+            <div class="sqs-block-content">
+                <div class=" image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-none individual-animation-none individual-text-animation-none" data-test="image-block-inline-outer-wrapper">
+                    <figure class=" sqs-block-image-figure intrinsic " style="max-width: 2000.0px;">
+                        <div style="padding-bottom: 56.25%;" class="  image-block-wrapper has-aspect-ratio " data-animation-role="image">
+                            <noscript><img src="@Url.Content("~/Content/Images/mimari - ruhsat/Yonca Apartmanı/1.jpg")" alt="" /></noscript>
+                            <img class="thumb-image" src="@Url.Content("~/Content/Images/mimari - ruhsat/Yonca Apartmanı/1.jpg")" style="left: 0%; top: -0.0151699%; width: 100%; height: 100.03%; position: absolute" data-image-dimensions="2000x1125" data-image-focal-point="0.5,0.5" alt="MAREN+FINAL+EDIT-7.jpg" data-load="false" data-image-id="5dc992d016757a6ba7a0109a" data-type="image" />
+                        </div>
+                    </figure>
+                </div>
+                <div class="sqs-block html-block mt-5 sqs-block-html" data-block-type="2">
+                    <div class="col sqs-col-7 span-7">
+                        <p class="" style="white-space: pre-wrap;">
+                            Göztepe, Kadıköy’de bulunan bina yenileme projesinin teklif dosyasıdır. Dış cephe çalışmaları ve sunum dosyaları tarafımızdan hazırlanmıştır. Bununla birlikte belediye yönetmeliklerine uygun biçimde kat planları çizilmiş, hesapları yapılmıştır.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Yonca Apartmanı Gallery -->
+        <div class="col sqs-row">
+            <div class="col-md-12 mt-5">
+                <div class="mdb-lightbox">
+                    <div class="sqs-block">
+                        <figure class="sqs-col-12 span-12" style="padding-right: 6%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Yonca Apartmanı/2.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+    </div>
+
+    <!-- Bodum Villa-->
+    <div data-project="bodrum_villa">
+        <!-- Bodrum Main Txt-->
+        <div class="row sqs-row">
+            <div class="col sqs-col-12">
+
+                <div class="col sqs-col-4">
+                    <h2 style="white-space: pre-wrap;">PROJE: </h2>
+                    <h2 style="white-space: pre-wrap;">LOKASYON: </h2>
+                    <h2 style="white-space: pre-wrap;">YIL: </h2>
+                </div>
+                <div class="col sqs-col-8">
+                    <h2 style="white-space: pre-wrap;"><strong>BODRUM SİTE PROJESİ  </strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>Bodrum / Muğla /TÜRKİYE</strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>2018</strong></h2>
+                </div>
+            </div>
+        </div>
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+        <!-- Bodrum Main İmage-->
+        <div class="sqs-block image-block sqs-block-image" data-block-type="5">
+            <div class="sqs-block-content">
+                <div class=" image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-none individual-animation-none individual-text-animation-none" data-test="image-block-inline-outer-wrapper">
+                    <figure class=" sqs-block-image-figure intrinsic " style="max-width: 2000.0px;">
+                        <div style="padding-bottom: 56.25%;" class="  image-block-wrapper has-aspect-ratio " data-animation-role="image">
+                            <noscript><img src="@Url.Content("~/Content/Images/mimari - ruhsat/Bodrum Villa/1.jpg")" alt="" /></noscript>
+                            <img class="thumb-image" src="@Url.Content("~/Content/Images/mimari - ruhsat/Bodrum Villa/1.jpg")" style="left: 0%; top: -0.0151699%; width: 100%; height: 100.03%; position: absolute" data-image-dimensions="2000x1125" data-image-focal-point="0.5,0.5" alt="MAREN+FINAL+EDIT-7.jpg" data-load="false" data-image-id="5dc992d016757a6ba7a0109a" data-type="image" />
+                        </div>
+                    </figure>
+                </div>
+                <div class="sqs-block html-block mt-5 sqs-block-html" data-block-type="2">
+                    <div class="col sqs-col-7 span-7">
+                        <p class="" style="white-space: pre-wrap;">
+                            Bodrum’da bulunan araziye inşa edilecek sitenin tasarım projesidir. Villaların tasarımları, ruhsat projesi süreçleri ve sitenin yerleşim planları tarafımızdan oluşturulmuştur.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bodrum Image Gallery -->
+        <div class="col sqs-row">
+            <div class="col-md-12 mt-5">
+                <div class="mdb-lightbox">
+                    <div class="sqs-block" data-block-type="21">
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Bodrum Villa/2.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Bodrum Villa/3.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+
+                        <figure class="sqs-col-12 span-12" style="padding-right: 6%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Bodrum Villa/4.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                        <figure class="sqs-col-12 span-12" style="padding-right: 6%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Bodrum Villa/5.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1571932480061_180440">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+    </div>
+    <!--  Silivri Villa -->
+    <div data-project="silivri_villa">
+        <!-- Silivri Villa  Evi Main Txt-->
+        <div class="row sqs-row">
+            <div class="col sqs-col-12">
+
+                <div class="col sqs-col-4">
+                    <h2 style="white-space: pre-wrap;">PROJE: </h2>
+                    <h2 style="white-space: pre-wrap;">LOKASYON: </h2>
+                    <h2 style="white-space: pre-wrap;">YIL: </h2>
+                </div>
+                <div class="col sqs-col-8">
+                    <h2 style="white-space: pre-wrap;"><strong>SİLİVRİ VİLLA PROJESİ </strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>Silivri / İstanbul /TÜRKİYE</strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>2018</strong></h2>
+                </div>
+            </div>
+        </div>
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+        <!-- Silivri Villa   Main İmage-->
+        <div class="sqs-block image-block sqs-block-image" data-block-type="5">
+            <div class="sqs-block-content">
+                <div class=" image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-none individual-animation-none individual-text-animation-none" data-test="image-block-inline-outer-wrapper">
+                    <figure class=" sqs-block-image-figure intrinsic " style="max-width: 2000.0px;">
+                        <div style="padding-bottom: 56.25%;" class="  image-block-wrapper has-aspect-ratio " data-animation-role="image">
+                            <noscript><img src="@Url.Content("~/Content/Images/mimari - ruhsat/Silivri Villa/1.jpg")" alt="" /></noscript>
+                            <img class="thumb-image" src="@Url.Content("~/Content/Images/mimari - ruhsat/Silivri Villa/1.jpg")" style="left: 0%; top: -0.0151699%; width: 100%; height: 100.03%; position: absolute" data-image-dimensions="2000x1125" data-image-focal-point="0.5,0.5" alt="MAREN+FINAL+EDIT-7.jpg" data-load="false" data-image-id="5dc992d016757a6ba7a0109a" data-type="image" />
+                        </div>
+                    </figure>
+                </div>
+                <div class="sqs-block html-block mt-5 sqs-block-html" data-block-type="2">
+                    <div class="col sqs-col-7 span-7">
+                        <p class="" style="white-space: pre-wrap;">
+                            Silivri’de bulunan villa projesidir. Dış cephe çalışmaları ve sunum dosyaları tarafımızdan hazırlanmıştır. Bununla birlikte belediye yönetmeliklerine uygun biçimde ruhsat projeleri hazırlanmış, belediyeden ruhsatı alınarak mal sahibine teslim edilmiştir.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Silivri Villa  Image Gallery -->
+        <div class="col sqs-row">
+            <div class="col-md-12 mt-5">
+                <div class="mdb-lightbox">
+
+                    <div class="sqs-block" data-block-type="21">
+
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Silivri Villa/2.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Silivri Villa/3.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+
+                        <figure class="sqs-col-12 span-12" style="padding-right: 6%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Silivri Villa/4.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+    </div>
+
+    <!-- Halicioglu İş hani -->
+    <div data-project="halicioglu_ishani">
+        <!-- Halicioglu is hani Main Txt-->
+        <div class="row sqs-row">
+            <div class="col sqs-col-12">
+
+                <div class="col sqs-col-4">
+                    <h2 style="white-space: pre-wrap;">PROJE: </h2>
+                    <h2 style="white-space: pre-wrap;">LOKASYON: </h2>
+                    <h2 style="white-space: pre-wrap;">YIL: </h2>
+                </div>
+                <div class="col sqs-col-8">
+                    <h2 style="white-space: pre-wrap;"><strong>HALICIOĞLU APARTMAN PROJESİ </strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>Halıcıoğlu / İstanbul /TÜRKİYE</strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>2014</strong></h2>
+                </div>
+            </div>
+        </div>
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+        <!-- Halicioglu is hani Main İmage-->
+        <div class="sqs-block image-block sqs-block-image" data-block-type="5">
+            <div class="sqs-block-content">
+                <div class=" image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-none individual-animation-none individual-text-animation-none" data-test="image-block-inline-outer-wrapper">
+                    <figure class=" sqs-block-image-figure intrinsic " style="max-width: 2000.0px;">
+                        <div style="padding-bottom: 56.25%;" class="  image-block-wrapper has-aspect-ratio " data-animation-role="image">
+                            <noscript><img src="@Url.Content("~/Content/Images/mimari - ruhsat/Halıcıoğlu Apartman/1.jpg")" alt="" /></noscript>
+                            <img class="thumb-image" src="@Url.Content("~/Content/Images/mimari - ruhsat/Halıcıoğlu Apartman/1.jpg")" style="left: 0%; top: -0.0151699%; width: 100%; height: 100.03%; position: absolute" data-image-dimensions="2000x1125" data-image-focal-point="0.5,0.5" alt="MAREN+FINAL+EDIT-7.jpg" data-load="false" data-image-id="5dc992d016757a6ba7a0109a" data-type="image" />
+                        </div>
+                    </figure>
+                </div>
+                <div class="sqs-block html-block mt-5 sqs-block-html" data-block-type="2">
+                    <div class="col sqs-col-7 span-7">
+                        <p class="" style="white-space: pre-wrap;">  Halıcıoğlu, Beyoğlu’nda bulunan bina yenileme projesidir. Dış cephe çalışmaları ve sunum dosyaları tarafımızdan hazırlanmıştır. Bununla birlikte belediye yönetmeliklerine uygun biçimde ruhsat projeleri sunulmuş, belediyeden ruhsatı alınmıştır.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Halicioglu is hani Image Gallery -->
+        <div class="col sqs-row">
+            <div class="col-md-12 mt-5">
+                <div class="mdb-lightbox">
+                    <div class="sqs-block" data-block-type="21">
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Halıcıoğlu Apartman/2.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Halıcıoğlu Apartman/3.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+    </div>
+
+    <!-- İnegöl Belediye-->
+    <div data-project="inegol_belediye">
+        <!-- Inegöl Belediye Main Txt-->
+        <div class="row sqs-row">
+            <div class="col sqs-col-12">
+
+                <div class="col sqs-col-4">
+                    <h2 style="white-space: pre-wrap;">PROJE: </h2>
+                    <h2 style="white-space: pre-wrap;">LOKASYON: </h2>
+                    <h2 style="white-space: pre-wrap;">YIL: </h2>
+                </div>
+                <div class="col sqs-col-8">
+                    <h2 style="white-space: pre-wrap;"><strong>İNEGÖL BELEDİYE BİNASI PROJESİ </strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>İnegöl / Bursa /TÜRKİYE</strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>2016</strong></h2>
+                </div>
+            </div>
+        </div>
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+        <!-- İnegöl Belediye Main İmage-->
+        <div class="sqs-block image-block sqs-block-image" data-block-type="5">
+            <div class="sqs-block-content">
+                <div class=" image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-none individual-animation-none individual-text-animation-none" data-test="image-block-inline-outer-wrapper">
+                    <figure class=" sqs-block-image-figure intrinsic " style="max-width: 2000.0px;">
+                        <div style="padding-bottom: 56.25%;" class="  image-block-wrapper has-aspect-ratio " data-animation-role="image">
+                            <noscript><img src="@Url.Content("~/Content/Images/mimari - ruhsat/İnegöl Belediye/1.jpg")" alt="" /></noscript>
+                            <img class="thumb-image" src="@Url.Content("~/Content/Images/mimari - ruhsat/İnegöl Belediye/1.jpg")" style="left: 0%; top: -0.0151699%; width: 100%; height: 100.03%; position: absolute" data-image-dimensions="2000x1125" data-image-focal-point="0.5,0.5" alt="MAREN+FINAL+EDIT-7.jpg" data-load="false" data-image-id="5dc992d016757a6ba7a0109a" data-type="image" />
+                        </div>
+                    </figure>
+                </div>
+                <div class="sqs-block html-block mt-5 sqs-block-html" data-block-type="2">
+                    <div class="col sqs-col-7 span-7">
+                        <p class="" style="white-space: pre-wrap;">
+                            İnegöl’de bulunan belediye binası için sunulan öneri projesidir. Lokasyonda yapılan keşifler doğrultusunda mühendislerle birlikte çalışarak tasarlanan projenin sunum dosyası ve yönetmeliğe uygun olacak şekilde düzenlemesi yapılmıştır.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- İnegöl Belediye Image Gallery -->
+        <div class="col sqs-row">
+            <div class="col-md-12 mt-5">
+                <div class="mdb-lightbox">
+                    <div class="sqs-block" data-block-type="21">
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/İnegöl Belediye/2.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/İnegöl Belediye/3.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/İnegöl Belediye/4.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/İnegöl Belediye/5.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+    </div>
+    <!-- Konak Belediye-->
+
+    <div data-project="konak_belediye">
+        <!-- Konak Belediye Main Txt-->
+        <div class="row sqs-row">
+            <div class="col sqs-col-12">
+
+                <div class="col sqs-col-4">
+                    <h2 style="white-space: pre-wrap;">PROJE: </h2>
+                    <h2 style="white-space: pre-wrap;">LOKASYON: </h2>
+                    <h2 style="white-space: pre-wrap;">YIL: </h2>
+                </div>
+                <div class="col sqs-col-8">
+                    <h2 style="white-space: pre-wrap;"><strong>KONAK BELEDİYE BİNASI PROJESİ </strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>Konak / İzmir /TÜRKİYE</strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>2015</strong></h2>
+                </div>
+            </div>
+        </div>
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+        <!-- Konak Belediye Main İmage-->
+        <div class="sqs-block image-block sqs-block-image" data-block-type="5">
+            <div class="sqs-block-content">
+                <div class=" image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-none individual-animation-none individual-text-animation-none" data-test="image-block-inline-outer-wrapper">
+                    <figure class=" sqs-block-image-figure intrinsic " style="max-width: 2000.0px;">
+                        <div style="padding-bottom: 56.25%;" class="  image-block-wrapper has-aspect-ratio " data-animation-role="image">
+                            <noscript><img src="@Url.Content("~/Content/Images/mimari - ruhsat/İnegöl Belediye/1.jpg")" alt="" /></noscript>
+                            <img class="thumb-image" src="@Url.Content("~/Content/Images/mimari - ruhsat/İnegöl Belediye/1.jpg")" style="left: 0%; top: -0.0151699%; width: 100%; height: 100.03%; position: absolute" data-image-dimensions="2000x1125" data-image-focal-point="0.5,0.5" alt="MAREN+FINAL+EDIT-7.jpg" data-load="false" data-image-id="5dc992d016757a6ba7a0109a" data-type="image" />
+                        </div>
+                    </figure>
+                </div>
+                <div class="sqs-block html-block mt-5 sqs-block-html" data-block-type="2">
+                    <div class="col sqs-col-7 span-7">
+                        <p class="" style="white-space: pre-wrap;">
+                            Konak, İzmir’de bulunan belediye binası için sunulan öneri projesidir. Lokasyonda yapılan keşifler doğrultusunda mühendislerle birlikte çalışarak tasarlanan projenin sunum dosyası ve yönetmeliğe uygun olacak şekilde düzenlemesi yapılmıştır.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Konak Belediye Image Gallery -->
+        <div class="col sqs-row">
+            <div class="col-md-12 mt-5">
+                <div class="mdb-lightbox">
+                    <div class="sqs-block" data-block-type="21">
+                        <figure class="sqs-col-12 span-12" style="padding-right: 6%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Konak Belediye/2.jpeg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Konak Belediye/3.jpeg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Konak Belediye/4.jpeg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                        <figure class="sqs-col-12 mx-4 span-5" style="padding: 2%; padding-right: 14%;">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Konak Belediye/5.jpeg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+    </div>
+
+    <!-- Samtt Otel Belediye-->
+    <div data-project="samir_otel">
+        <!-- Samir Otel Main Txt-->
+        <div class="row sqs-row">
+            <div class="col sqs-col-12">
+
+                <div class="col sqs-col-4">
+                    <h2 style="white-space: pre-wrap;">PROJE: </h2>
+                    <h2 style="white-space: pre-wrap;">LOKASYON: </h2>
+                    <h2 style="white-space: pre-wrap;">YIL: </h2>
+                </div>
+                <div class="col sqs-col-8">
+                    <h2 style="white-space: pre-wrap;"><strong>SAMİR OTEL   </strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>Aksaray / İstanbul /TÜRKİYE</strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>2015</strong></h2>
+                </div>
+            </div>
+        </div>
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+        <!-- Samir Otel Main İmage-->
+        <div class="sqs-block image-block sqs-block-image" data-block-type="5">
+            <div class="sqs-block-content">
+                <div class=" image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-none individual-animation-none individual-text-animation-none" data-test="image-block-inline-outer-wrapper">
+                    <figure class=" sqs-block-image-figure intrinsic " style="max-width: 2000.0px;">
+                        <div style="padding-bottom: 56.25%;" class="  image-block-wrapper has-aspect-ratio " data-animation-role="image">
+                            <noscript><img src="@Url.Content("~/Content/Images/mimari - ruhsat/Samir Otel/1.jpg")" alt="" /></noscript>
+                            <img class="thumb-image" src="@Url.Content("~/Content/Images/mimari - ruhsat/Samir Otel/1.jpg")" style="left: 0%; top: -0.0151699%; width: 100%; height: 100.03%; position: absolute" data-image-dimensions="2000x1125" data-image-focal-point="0.5,0.5" alt="MAREN+FINAL+EDIT-7.jpg" data-load="false" data-image-id="5dc992d016757a6ba7a0109a" data-type="image" />
+                        </div>
+                    </figure>
+                </div>
+                <div class="sqs-block html-block mt-5 sqs-block-html" data-block-type="2">
+                    <div class="col sqs-col-7 span-7">
+                        <p class="" style="white-space: pre-wrap;">
+                            Aksaray’da bulunan 8 katlı otelin iç mekân ve cephe tasarımı projesidir. Mevcut yapıda olacak değişiklikler ile otele daha modern bir yüz getirmek istenmiştir. Bu çerçevede yapı en alt kattan en üst kata kadar yeniden tasarlanmıştır. Resepsiyon bölümü, odalar, sirkülasyon alanları, restoran bölümü ve cephesi de dahil olmak üzere tasarım bütüncül bir yaklaşım ile yapılmıştır.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Samir Otel Image Gallery -->
+        <div class="col sqs-row">
+            <div class="col-md-12 mt-5">
+                <div class="mdb-lightbox">
+                    <div class="sqs-block" data-block-type="21">
+                        <figure class="sqs-col-12 span-12" style="padding-right: 6%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/mimari - ruhsat/Samir Otel/2.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+    </div>
+
+    <!-- Pasha Otel Belediye-->
+    <div data-project="pasha_otel">
+        <!-- Pasha Otel Main Txt-->
+        <div class="row sqs-row">
+            <div class="col sqs-col-12">
+
+                <div class="col sqs-col-4">
+                    <h2 style="white-space: pre-wrap;">PROJE: </h2>
+                    <h2 style="white-space: pre-wrap;">LOKASYON: </h2>
+                    <h2 style="white-space: pre-wrap;">YIL: </h2>
+                </div>
+                <div class="col sqs-col-8">
+                    <h2 style="white-space: pre-wrap;"><strong>PASHA OTEL PROJESİ </strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>Kadıköy / İstanbul /TÜRKİYE</strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>2015</strong></h2>
+                </div>
+            </div>
+        </div>
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+        <!-- PAsha Otel Main İmage-->
+        <div class="sqs-block image-block sqs-block-image" data-block-type="5">
+            <div class="sqs-block-content">
+                <div class=" image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-none individual-animation-none individual-text-animation-none" data-test="image-block-inline-outer-wrapper">
+                    <figure class=" sqs-block-image-figure intrinsic " style="max-width: 2000.0px;">
+                        <div style="padding-bottom: 56.25%;" class="  image-block-wrapper has-aspect-ratio " data-animation-role="image">
+                            <noscript><img src="@Url.Content("~/Content/Images/mimari - ruhsat/Pasha Otel - Kadıköy/1.jpg")" alt="" /></noscript>
+                            <img class="thumb-image" src="@Url.Content("~/Content/Images/mimari - ruhsat/Pasha Otel - Kadıköy/1.jpg")" style="left: 0%; top: -0.0151699%; width: 100%; height: 100.03%; position: absolute" data-image-dimensions="2000x1125" data-image-focal-point="0.5,0.5" alt="MAREN+FINAL+EDIT-7.jpg" data-load="false" data-image-id="5dc992d016757a6ba7a0109a" data-type="image" />
+                        </div>
+                    </figure>
+                </div>
+                <div class="sqs-block html-block mt-5 sqs-block-html" data-block-type="2">
+                    <div class="col sqs-col-7 span-7">
+                        <p class="" style="white-space: pre-wrap;">
+                            Kadıköy’de bulunan dış cephe projesidir. Dış cephe çalışmaları ve sunum dosyaları tarafımızdan hazırlanmıştır. Bununla birlikte belediye yönetmeliklerine uygun biçimde tadilat projeleri de hazırlanmıştır.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+    </div>
+    <!-- Ümraniye Kültür Merkezi Belediye-->
+    <div data-project="umraniye_kultur_merkezi">
+        <!-- Ümraniye Kültür Merkezi Main Txt-->
+        <div class="row sqs-row">
+            <div class="col sqs-col-12">
+
+                <div class="col sqs-col-4">
+                    <h2 style="white-space: pre-wrap;">PROJE: </h2>
+                    <h2 style="white-space: pre-wrap;">LOKASYON: </h2>
+                    <h2 style="white-space: pre-wrap;">YIL: </h2>
+                </div>
+                <div class="col sqs-col-8">
+                    <h2 style="white-space: pre-wrap;"><strong>ÜMRANİYE KÜLTÜR MERKEZİ BİNASI</strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>Ümraniye / İstanbul /TÜRKİYE</strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>2012</strong></h2>
+                </div>
+            </div>
+        </div>
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+        <!-- Ümraniye Main İmage-->
+        <div class="sqs-block image-block sqs-block-image" data-block-type="5">
+            <div class="sqs-block-content">
+                <div class=" image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-none individual-animation-none individual-text-animation-none" data-test="image-block-inline-outer-wrapper">
+                    <figure class=" sqs-block-image-figure intrinsic " style="max-width: 2000.0px;">
+                        <div style="padding-bottom: 56.25%;" class="  image-block-wrapper has-aspect-ratio " data-animation-role="image">
+                            <noscript><img src="@Url.Content("~/Content/Images/mimari - ruhsat/Ümraniye Kültür Merkezi/1.jpg")" alt="" /></noscript>
+                            <img class="thumb-image" src="@Url.Content("~/Content/Images/mimari - ruhsat/Ümraniye Kültür Merkezi/1.jpg")" style="left: 0%; top: -0.0151699%; width: 100%; height: 100.03%; position: absolute" data-image-dimensions="2000x1125" data-image-focal-point="0.5,0.5" alt="MAREN+FINAL+EDIT-7.jpg" data-load="false" data-image-id="5dc992d016757a6ba7a0109a" data-type="image" />
+                        </div>
+                    </figure>
+                </div>
+                <div class="sqs-block html-block mt-5 sqs-block-html" data-block-type="2">
+                    <div class="col sqs-col-7 span-7">
+                        <p class="" style="white-space: pre-wrap;">
+                            Ümraniye’de yapılması tasarlanan kültür merkezi binası için sunulan öneri projesidir. Lokasyonda yapılan keşifler doğrultusunda mühendislerle birlikte çalışarak tasarlanan projenin sunum dosyası ve yönetmeliğe uygun olacak şekilde düzenlemesi yapılmıştır.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+    </div>
+</div>
+<script>
+    $(".projects_block > a").on("click",
+        function () {
+            var projectName = $(this).data("project-name");
+
+            var allProjects = $('[data-project]');
+
+            for (var i = 0; i < allProjects.length; i++) {
+                var element = allProjects[i];
+                $(element).hide("slow");
+            }
+            $("*").find("[data-project ='" + projectName + "']").show("slow");
+        });
+</script>
+
+

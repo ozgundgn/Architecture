@@ -24,7 +24,7 @@ textarea {
 }
 .openMenu {
     opacity: 1 !important;
-    height: 68px !important;
+    height: 90px !important;
 }
 .carousel-fade .active.carousel-item-left, .carousel-fade .active.carousel-item-right {
     z-index: 0;

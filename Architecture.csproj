@@ -274,11 +274,11 @@
     <Content Include="Content\Images\mimari - ruhsat\Halıcıoğlu İş Hanı\2.jpg" />
     <Content Include="Content\Images\mimari - ruhsat\Halıcıoğlu İş Hanı\3.jpg" />
     <Content Include="Content\Images\mimari - ruhsat\Halıcıoğlu İş Hanı\4.jpg" />
-    <Content Include="Content\Images\mimari - ruhsat\Konak Belediye Binası Öneri\1.jpeg" />
-    <Content Include="Content\Images\mimari - ruhsat\Konak Belediye Binası Öneri\2.jpeg" />
-    <Content Include="Content\Images\mimari - ruhsat\Konak Belediye Binası Öneri\3.jpeg" />
-    <Content Include="Content\Images\mimari - ruhsat\Konak Belediye Binası Öneri\4.jpeg" />
-    <Content Include="Content\Images\mimari - ruhsat\Konak Belediye Binası Öneri\5.jpeg" />
+    <Content Include="Content\Images\mimari - ruhsat\Konak Belediye\1.jpeg" />
+    <Content Include="Content\Images\mimari - ruhsat\Konak Belediye\2.jpeg" />
+    <Content Include="Content\Images\mimari - ruhsat\Konak Belediye\3.jpeg" />
+    <Content Include="Content\Images\mimari - ruhsat\Konak Belediye\4.jpeg" />
+    <Content Include="Content\Images\mimari - ruhsat\Konak Belediye\5.jpeg" />
     <Content Include="Content\Images\mimari - ruhsat\Palmiye Apartmanı\1.jpg" />
     <Content Include="Content\Images\mimari - ruhsat\Palmiye Apartmanı\2.jpg" />
     <Content Include="Content\Images\mimari - ruhsat\Palmiye Apartmanı\3.jpg" />
@@ -286,7 +286,7 @@
     <Content Include="Content\Images\mimari - ruhsat\Palmiye Apartmanı\5.jpg" />
     <Content Include="Content\Images\mimari - ruhsat\Palmiye Apartmanı\6.jpg" />
     <Content Include="Content\Images\mimari - ruhsat\Palmiye Apartmanı\7.jpg" />
-    <Content Include="Content\Images\mimari - ruhsat\Pasha Otel - Kadıköy\pasha otel.jpg" />
+    <Content Include="Content\Images\mimari - ruhsat\Pasha Otel - Kadıköy\1.jpg" />
     <Content Include="Content\Images\mimari - ruhsat\Sahrayıcedid Apartman\1.jpg" />
     <Content Include="Content\Images\mimari - ruhsat\Sahrayıcedid Apartman\2.jpg" />
     <Content Include="Content\Images\mimari - ruhsat\Sahrayıcedid Apartman\3.jpg" />
@@ -302,11 +302,11 @@
     <Content Include="Content\Images\mimari - ruhsat\Yonca Apartmanı\1.jpg" />
     <Content Include="Content\Images\mimari - ruhsat\Yonca Apartmanı\2.jpg" />
     <Content Include="Content\Images\mimari - ruhsat\Ümraniye Kültür Merkezi\1.jpg" />
-    <Content Include="Content\Images\mimari - ruhsat\İnegöl Belediye Binası Öneri\1.jpg" />
-    <Content Include="Content\Images\mimari - ruhsat\İnegöl Belediye Binası Öneri\2.jpg" />
-    <Content Include="Content\Images\mimari - ruhsat\İnegöl Belediye Binası Öneri\3.jpg" />
-    <Content Include="Content\Images\mimari - ruhsat\İnegöl Belediye Binası Öneri\4.jpg" />
-    <Content Include="Content\Images\mimari - ruhsat\İnegöl Belediye Binası Öneri\5.jpg" />
+    <Content Include="Content\Images\mimari - ruhsat\İnegöl Belediye\1.jpg" />
+    <Content Include="Content\Images\mimari - ruhsat\İnegöl Belediye\2.jpg" />
+    <Content Include="Content\Images\mimari - ruhsat\İnegöl Belediye\3.jpg" />
+    <Content Include="Content\Images\mimari - ruhsat\İnegöl Belediye\4.jpg" />
+    <Content Include="Content\Images\mimari - ruhsat\İnegöl Belediye\5.jpg" />
     <Content Include="Content\Images\mimari - ruhsat\Şafak Apartmanı\1.jpg" />
     <Content Include="Content\Images\mimari - ruhsat\Şafak Apartmanı\2.JPG" />
     <Content Include="Content\Images\mimari - ruhsat\Şafak Apartmanı\3.jpg" />
@@ -384,7 +384,7 @@
     <Content Include="Content\Images\mimari - ruhsat\Feneryolu Apartman\feneryolu APartmanı.docx" />
     <Content Include="Content\Images\mimari - ruhsat\Halıcıoğlu Apartman\Halıcıoğluapartman.docx" />
     <Content Include="Content\Images\mimari - ruhsat\Halıcıoğlu İş Hanı\Halıcıoğlu işhanı.docx" />
-    <Content Include="Content\Images\mimari - ruhsat\Konak Belediye Binası Öneri\KONAK belediye binası.docx" />
+    <Content Include="Content\Images\mimari - ruhsat\Konak Belediye\KONAK belediye binası.docx" />
     <Content Include="Content\Images\mimari - ruhsat\Palmiye Apartmanı\Palmiye APartmanı.docx" />
     <Content Include="Content\Images\mimari - ruhsat\Pasha Otel - Kadıköy\Pasha otel.docx" />
     <Content Include="Content\Images\mimari - ruhsat\Sahrayıcedid Apartman\Sahrayıcedid apartman.docx" />
@@ -393,7 +393,7 @@
     <Content Include="Content\Images\mimari - ruhsat\Silivri Villa\silivri villa.docx" />
     <Content Include="Content\Images\mimari - ruhsat\Yonca Apartmanı\Yonca apartmanı.docx" />
     <Content Include="Content\Images\mimari - ruhsat\Ümraniye Kültür Merkezi\ümraniye kültür merkezi.docx" />
-    <Content Include="Content\Images\mimari - ruhsat\İnegöl Belediye Binası Öneri\İnegöl belediye binası.docx" />
+    <Content Include="Content\Images\mimari - ruhsat\İnegöl Belediye\İnegöl belediye binası.docx" />
     <Content Include="Content\Images\mimari - ruhsat\Şafak Apartmanı\ŞAFAK apartmanı.docx" />
     <Content Include="Content\Images\mimari - ruhsat\Şahin Apartmanı\şahin apartman.docx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
@@ -514,11 +514,11 @@
     <Content Include="Views\Home\Designs.cshtml" />
     <Content Include="Views\Home\Media.cshtml" />
     <Content Include="Views\Home\IcMimari.cshtml" />
+    <Content Include="Views\Home\MimariRuhsat.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Content\Images\Home\" />
-    <Folder Include="Content\Images\Projects\" />
     <Folder Include="Models\" />
     <Folder Include="OriginalSite\" />
   </ItemGroup>

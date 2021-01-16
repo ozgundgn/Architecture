@@ -20326,7 +20326,29 @@ div #topNav a:focus {
     width: 100%;
     max-width: 1000px;
 }
+.gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%;
+}
 
+.gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+}
+
+.gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+figure.sqs-col-4.span-4 img {
+    padding: 10px;
+}
 /* Caption of Modal Image */
 #caption {
     margin: auto;
@@ -20414,4 +20436,10 @@ div #topNav a:focus {
     color: #000;
     border-radius:5px
 }
+
+@media only screen and (max-width: 800px) {
+    .projects_block {
+        display: grid;
+    }
+                                          } 
 

@@ -35,7 +35,7 @@ namespace Architecture.Controllers
         {
             return View();
         }  
-        public ActionResult Projects()
+        public ActionResult MimariRuhsat()
         {
             return View();
         }
