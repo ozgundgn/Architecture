@@ -5,12 +5,15 @@ using System.Net;
 using System.Net.Mail;
 using System.Web;
 using System.Web.Mvc;
+using Architecture.Filters;
 
 
 namespace Architecture.Controllers
 {
+  
     public class HomeController : Controller
     {
+        [ExceptionFilter]
         public ActionResult Index()
         {
             return View();
@@ -44,6 +47,10 @@ namespace Architecture.Controllers
             return View();
         }
         public ActionResult Media()
+        {
+            return View();
+        }
+        public ActionResult Error()
         {
             return View();
         }

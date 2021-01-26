@@ -1,5 +1,6 @@
 ﻿using System.Web;
 using System.Web.Mvc;
+using Architecture.Filters;
 
 namespace Architecture
 {
@@ -8,6 +9,7 @@ namespace Architecture
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
             filters.Add(new HandleErrorAttribute());
+            filters.Add(new ExceptionFilter());
         }
     }
 }
