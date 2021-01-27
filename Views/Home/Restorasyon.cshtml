@@ -1,0 +1,201 @@
+﻿
+@{
+    ViewBag.Title = "MimariRuhsat";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="col sqs-col-12 span-12">
+    <div>
+        <div id="topNav" data-content-field="navigation">
+            <nav class="main-nav dropdown-click">
+                <ul id="rowIcmimariNavigation" class="nav nav-tabs">
+                    @*<li class="page-collection nav-item dropdown">
+                            <a class="nav-link dropdown-toggle nav-link projects_buttons" data-menu-sec="kamp" onclick="projeTuruSec(this)">Elmadağ</a>
+                        </li>
+                        <li class="page-collection folder-collection folder nav-item dropdown">
+                            <a class="nav-link dropdown-toggle nav-link projects_buttons" data-menu-sec="konut" onclick="projeTuruSec(this)">KONUT</a>
+                        </li>
+                        <li class="page-collection nav-item">
+                            <a class="nav-link dropdown-toggle nav-link projects_buttons" data-menu-sec="dukkan" onclick="projeTuruSec(this)">DÜKKAN</a>
+                        </li>*@
+                    <li class="page-collection nav-item">
+                        <a class="nav-link dropdown-toggle nav-link projects_buttons" data-menu-sec="yali" onclick="projeTuruSec(this)">YALI</a>
+                    </li>
+                    <li class="page-collection nav-item">
+                        <a class="nav-link dropdown-toggle projects_buttons" data-menu-sec="otel" onclick="projeTuruSec(this)"> OTEL</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="col sqs-col-12 projects_block" style=" margin-bottom: 3%;">
+            <a class="projects_buttons_menu" data-project-name="elmadag_otel" data-menu="otel" style="display:none">Elmadağ Otel</a>
+            <a class="projects_buttons_menu" data-project-name="pembe_yali" data-menu="yali" style="display:none">Pembe Yalı</a>
+        </div>
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+    </div>
+    <!-- Elmadağ Apart Txt-->
+    <div data-project="elmadag_otel">
+        <div class="row sqs-row">
+            <div class="col sqs-col-12">
+                <div class="col sqs-col-4">
+                    <h2 style="white-space: pre-wrap;">PROJE: </h2>
+                    <h2 style="white-space: pre-wrap;">LOKASYON: </h2>
+                    <h2 style="white-space: pre-wrap;">YIL: </h2>
+                </div>
+                <div class="col sqs-col-8">
+                    <h2 style="white-space: pre-wrap;"><strong>ELMADAĞ OTEL  </strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>LOKASYON: Elmadağ / İstanbul / TÜRKİYE</strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>2013</strong></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+
+        <!-- Elmadağ Main İmage-->
+        <div class="sqs-block image-block sqs-block-image" data-block-type="5">
+            <div class="sqs-block-content">
+                <div class=" image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-none individual-animation-none individual-text-animation-none" data-test="image-block-inline-outer-wrapper">
+                    <figure class=" sqs-block-image-figure intrinsic " style="max-width: 2000.0px;">
+                        <div style="padding-bottom: 56.25%;" class="  image-block-wrapper has-aspect-ratio " data-animation-role="image">
+                            <noscript><img src="@Url.Content("~/Content/Images/restorasyon/Elmadağ/1.jpg")" alt="" /></noscript>
+                            <img class="thumb-image" src="@Url.Content("~/Content/Images/restorasyon/Elmadağ/1.jpg")" style="left: 0%; top: -0.0151699%; width: 100%; height: 100.03%; position: absolute" data-image-dimensions="2000x1125" data-image-focal-point="0.5,0.5" alt="MAREN+FINAL+EDIT-7.jpg" data-load="false" data-image-id="5dc992d016757a6ba7a0109a" data-type="image" />
+                        </div>
+                    </figure>
+                </div>
+                <div class="sqs-block html-block mt-5 sqs-block-html" data-block-type="2">
+                    <div class="col sqs-col-7 span-7">
+                        <p class="" style="white-space: pre-wrap;"> Elmadağ, Beyoğlu’nda bulunan otelin restorasyon projesidir. Mevcut yapıda olacak değişiklikler ile binanın otel fonksiyonu ile kullanılması talep edilmiştir. Bu çerçevede yapı en alt kattan en üst kata kadar yeniden tasarlanmıştır. Gerekli belediyeler ve Koruma kurulu ile görüşmeler yapılarak, rölöve ve restitüsyon projeleri onaylattırılmıştır.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Elmadağ Image Gallery -->
+        <div class="col sqs-row">
+            <div class="col-md-12 mt-5">
+                <div class="mdb-lightbox">
+                    <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/restorasyon/Elmadağ/2.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/restorasyon/Elmadağ/3.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                        <figure class="sqs-col-12 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/restorasyon/Elmadağ/4.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                        <figure class="sqs-col-12 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/restorasyon/Elmadağ/5.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+        <div class="sqs-block-content">&nbsp;</div>
+    </div>
+
+    <!-- pembe_yali Konut Apartman-->
+    <div data-project="pembe_yali">
+        <!-- pembe_yali Main Txt-->
+        <div class="row sqs-row">
+            <div class="col sqs-col-12">
+                <div class="col sqs-col-4">
+                    <h2 style="white-space: pre-wrap;">PROJE: </h2>
+                    <h2 style="white-space: pre-wrap;">LOKASYON: </h2>
+                    <h2 style="white-space: pre-wrap;">YIL: </h2>
+                </div>
+                <div class="col sqs-col-8">
+                    <h2 style="white-space: pre-wrap;"><strong>PEMBE YALI KAFE/ RESTORAN </strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>LOKASYON: Anadolu Hisarı / İstanbul / TÜRKİYE</strong></h2>
+                    <h2 style="white-space: pre-wrap;"><strong>2016-2017</strong></h2>
+                </div>
+            </div>
+        </div>
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+        <!-- pembe_yali Main İmage-->
+        <div class="sqs-block image-block sqs-block-image" data-block-type="5">
+            <div class="sqs-block-content">
+                <div class=" image-block-outer-wrapper layout-caption-below design-layout-inline combination-animation-none individual-animation-none individual-text-animation-none" data-test="image-block-inline-outer-wrapper">
+                    <figure class=" sqs-block-image-figure intrinsic " style="max-width: 2000.0px;">
+                        <div style="padding-bottom: 56.25%;" class="  image-block-wrapper has-aspect-ratio " data-animation-role="image">
+                            <noscript><img src="@Url.Content("~/Content/Images/restorasyon/Pembe Yalı/1.jpg")" alt="" /></noscript>
+                            <img class="thumb-image" src="@Url.Content("~/Content/Images/restorasyon/Pembe Yalı/1.jpg")" style="left: 0%; top: -0.0151699%; width: 100%; height: 100.03%; position: absolute" data-image-dimensions="2000x1125" data-image-focal-point="0.5,0.5" alt="MAREN+FINAL+EDIT-7.jpg" data-load="false" data-image-id="5dc992d016757a6ba7a0109a" data-type="image" />
+                        </div>
+                    </figure>
+                </div>
+                <div class="sqs-block html-block mt-5 sqs-block-html" data-block-type="2">
+                    <div class="col sqs-col-7 span-7">
+                        <p class="" style="white-space: pre-wrap;">Anadolu Hisarı, Beykoz’da bulunan yalının restorasyon projesidir. Mevcut yapıda olacak değişiklikler ile binanın kafe/restoran fonksiyonu ile kullanılması talep edilmiştir. Bu çerçevede yapı en alt kattan en üst kata kadar yeniden tasarlanmıştır. </p>
+                        <p class="" style="white-space: pre-wrap;">Pembe Yalı, Boğaziçi sahil şeridi, öngörünüm alanı içinde yer almaktadır. Dolayısıyla yapının restorasyon projesi hazırlanırken İstanbul Büyükşehir Belediyesi Koruma Uygulama ve Denetim Müdürlüğü ve Beykoz Belediyesi’ne ilave olarak Boğaziçi İmar Müdürlüğü’nün de onay ve görüşlerine başvurulmuştur. Projeleri, yeni sahibinin istediği üzerine restoran işlevine uygun olacak şekilde hazırlanmıştır. Yeniden işlevlendirilmiş olan yapının 2017 yılında iskanı alınmış; 2018 yılında hizmete açılmıştır.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  Image Gallery -->
+        <div class="col sqs-row">
+            <div class="col-md-12 mt-5">
+                <div id="mdb-lightbox-ui"></div>
+
+                <div class="mdb-lightbox">
+
+                    <div class="sqs-block" data-block-type="21">
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/restorasyon/Pembe Yalı/2.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                        <figure class="sqs-col-5 mx-4" style="padding: 2%">
+                            <img alt="picture" ssrc="@Url.Content("~/Content/Images/restorasyon/Pembe Yalı/3.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                        <figure class="sqs-col-12 span-12" style="padding-right: 6%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/restorasyon/Pembe Yalı/4.jpg")" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/restorasyon/Pembe Yalı/5.jpg")" style="padding: 15px" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/restorasyon/Pembe Yalı/6.jpg")" style="padding: 15px" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                        <figure class="sqs-col-12 span-12" style="padding-right: 6%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/restorasyon/Pembe Yalı/7.jpg")" style="padding: 15px" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/restorasyon/Pembe Yalı/8.jpg")" style="padding: 15px" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                        <figure class="sqs-col-5 mx-4 span-5" style="padding: 2%">
+                            <img alt="picture" src="@Url.Content("~/Content/Images/restorasyon/Pembe Yalı/9.jpg")" style="padding: 15px" onclick="loadZoomImageModel(this);" class="img-fluid">
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21">
+            <div class="sqs-block-content">&nbsp;</div>
+        </div>
+    </div>
+</div>
+<script>
+    $(".projects_block > a").on("click",
+        function () {
+            var projectName = $(this).data("project-name");
+
+            var allProjects = $('[data-project]');
+
+            for (var i = 0; i < allProjects.length; i++) {
+                var element = allProjects[i];
+                $(element).hide("slow");
+            }
+            $("*").find("[data-project ='" + projectName + "']").show("slow");
+        });
+</script>
+
+

@@ -41,6 +41,14 @@ namespace Architecture.Controllers
         public ActionResult MimariRuhsat()
         {
             return View();
+        } 
+        public ActionResult Restorasyon()
+        {
+            return View();
+        }
+        public ActionResult AhsapKutuk()
+        {
+            return View();
         }
         public ActionResult Designs()
         {
