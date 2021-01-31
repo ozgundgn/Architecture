@@ -27,7 +27,7 @@
             </nav>
         </div>
 
-        <div class="col sqs-col-12 projects_block" style=" margin-bottom: 3%;">
+        <div class="col sqs-col-12 projects_block">
             <a class="projects_buttons_menu" data-project-name="kamp_ardesen" data-menu="kamp" style="display:none">Ardeşen Kamp Alanı</a>
             <a class="projects_buttons_menu" data-project-name="bolu_konut" data-menu="konut" style="display:none">Bolu Kütük Konut</a>
             <a class="projects_buttons_menu" data-project-name="iznik_konut" data-menu="konut" style="display:none">İznik Konut</a>
@@ -449,6 +449,8 @@
                 $(element).hide("slow");
             }
             $("*").find("[data-project ='" + projectName + "']").show("slow");
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
         });
 </script>
 

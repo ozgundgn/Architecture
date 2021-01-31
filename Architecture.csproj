@@ -167,6 +167,7 @@
     <Content Include="Content\Images\ahşap kütük yapı\Şile Dükkan\3.jpg" />
     <Content Include="Content\Images\ahşap kütük yapı\Şile Dükkan\4.jpg" />
     <Content Include="Content\Images\DESIGN_ARCHITECTURE.png" />
+    <Content Include="Content\Images\Etasarim\EtasarimImage.jpeg" />
     <Content Include="Content\Images\IcMimari\A.U. evi\1.jpg" />
     <Content Include="Content\Images\IcMimari\A.U. evi\2.jpg" />
     <Content Include="Content\Images\IcMimari\A.U. evi\3.jpg" />
@@ -451,6 +452,7 @@
     <Content Include="Content\Images\ahşap kütük yapı\Şile Dükkan\şile dükkan.docx" />
     <Content Include="Content\Images\restorasyon\Elmadağ\Elmadağ Otel.docx" />
     <Content Include="Content\Images\restorasyon\Pembe Yalı\Pembe Yalı.docx" />
+    <Content Include="Content\Images\Etasarim\e tasarım stüdyosu.docx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\common-4faa08d78bc08f84f957a-min.en-US.js" />
     <Content Include="Scripts\common-vendors-a4a6a154b60d89855f557-min.en-US.js" />

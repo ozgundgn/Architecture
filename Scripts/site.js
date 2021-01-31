@@ -36,6 +36,8 @@ $(".projects_block > a").on("click",
             $(element).hide("slow");
         }
         $("*").find("[data-project ='" + projectName + "']").show("slow");
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
     });
 
 function projeTuruSec(el) {
@@ -54,5 +56,4 @@ function altMenuleriGizle() {
         $(tumMenuler[i]).hide("slow");
     }
 }
-
 

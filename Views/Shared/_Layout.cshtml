@@ -93,7 +93,7 @@
                                         <a href="@Url.Action("IcMimari", "Home")">İç Mimari</a>
                                     </li>
                                     <li class=" folder external-link">
-                                        <a href="@Url.Action("AhsapKutuk", "Home")">Mimari - Ruhsat</a>
+                                        <a href="@Url.Action("MimariRuhsat", "Home")">Mimari - Ruhsat</a>
                                     </li>
                                     <li class=" folder external-link">
                                         <a href="@Url.Action("Restorasyon", "Home")">Restorasyon</a>
@@ -271,30 +271,31 @@
             if (window.ImageLoader) {
                 window.ImageLoader.bootstrap({}, document);
             }
-            console.log(localStorage);
-            setTimeout(localStorage.clear, 5400000);
+            console.log(sessionStorage);
+            setTimeout(sessionStorage.clear(), 5400000);
         })();
-        document.onreadystatechange = function (e) {
-            if (document.readyState !== 'complete') {
-                if (localStorage.getItem("hasRunCod") === null) {
-                    $("#canvasWrapper").css("display", "none");
-                    $(".loaderImage").css("display", "block");
+        /*   document.onreadystatechange = function (e) {
+               if (document.readyState !== 'complete') {
+                   if (localStorage.getItem("hasRunCod") === null) {
+                       $("#canvasWrapper").css("display", "none");
+                       $(".loaderImage").css("display", "block");
 
-                }
-            }
-        };
-
-        window.onload = function () {
-            if (localStorage.getItem("hasRunCod") === null) {
-                logoShow();
-                localStorage.setItem("hasRunCod", true);
-            }
-        }
-
+                   }
+               }
+           }; */
         function logoShow() {
             $(".loaderImage").fadeOut(7000);
             $("#canvasWrapper").fadeIn(8000);
+            sessionStorage.setItem("hasRunCode", "true");
         }
+
+        window.onload = function () {
+            if (sessionStorage.getItem("hasRunCode") === null) {
+                logoShow();
+            }
+        }
+
+
 
         function mobileNavOpen() {
             $('#mobileNav').toggleClass('menu-open');
