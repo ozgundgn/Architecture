@@ -19497,7 +19497,7 @@ body.sqs-style-mode {
     }
 
     .collection-type-blog.blog-sidebar-left .main-content {
-        margin-left:0
+        margin-left: 0
     }
 
     #canvas {
@@ -20237,6 +20237,7 @@ div #topNav a {
 div#mobileNav * {
     color: #000 !important
 }
+
 div #topNav a:focus {
     color: red;
 }
@@ -20256,10 +20257,11 @@ div #topNav a:focus {
     border-radius: 20px;
 }
 
-.fa:hover {
-    opacity: 0.7;
-    transform: rotate(360deg);
-}
+    .fa:hover {
+        opacity: 0.7;
+        transform: rotate(360deg);
+    }
+
 .fa-facebook {
     background: #3B5998;
     color: white;
@@ -20300,9 +20302,10 @@ div #topNav a:focus {
     cursor: pointer;
     transition: 0.3s;
 }
-.img-fluid:hover {
-    opacity: 0.7;
-}
+
+    .img-fluid:hover {
+        opacity: 0.7;
+    }
 
 /* Zoom Image Modal The Modal (background) */
 .modal {
@@ -20326,6 +20329,7 @@ div #topNav a:focus {
     width: 100%;
     max-width: 1000px;
 }
+
 .gallery {
     -webkit-column-count: 3;
     -moz-column-count: 3;
@@ -20335,16 +20339,16 @@ div #topNav a:focus {
     column-width: 33%;
 }
 
-.gallery .pics {
-    -webkit-transition: all 350ms ease;
-    transition: all 350ms ease;
-}
+    .gallery .pics {
+        -webkit-transition: all 350ms ease;
+        transition: all 350ms ease;
+    }
 
-.gallery .animation {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-}
+    .gallery .animation {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
 
 figure.sqs-col-4.span-4 img {
     padding: 10px;
@@ -20400,12 +20404,12 @@ figure.sqs-col-4.span-4 img {
     transition: 0.3s;
 }
 
-.close:hover,
-.close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-}
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px) {
@@ -20423,10 +20427,12 @@ figure.sqs-col-4.span-4 img {
     background-color: #222;
     color: #f8f9fa !important;
 }
+
 #rowIcmimariNavigation {
     display: flex;
     flex-direction: row;
 }
+
 .projects_buttons_menu {
     border: 1px solid #eee;
     padding: 15px;
@@ -20434,12 +20440,27 @@ figure.sqs-col-4.span-4 img {
     cursor: pointer;
     background-color: white;
     color: #000;
-    border-radius:5px
+    border-radius: 5px
 }
 
 @media only screen and (max-width: 800px) {
     .projects_block {
         display: grid;
     }
-                                          } 
+}
+.top-menu-fixed {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background: white;
+}
+[data-project] {
+    margin-top: 2%;
+}
+.projects_block {
+    height: 40px;
+}
+
+
 
