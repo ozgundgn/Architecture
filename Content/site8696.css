@@ -60,7 +60,7 @@ a {
     }
 
     a:focus {
-        outline: thin dotted
+        outline: revert
     }
 
     a:hover,
@@ -18202,7 +18202,7 @@ a:visited {
 
 .main-nav a:hover,
 .main-nav .folder li a:hover {
-    color: #d9d3d3 !important;
+    color: #a410e6 !important;
 }
 
 .main-nav#secondaryNavigation a,
@@ -20240,7 +20240,7 @@ div#mobileNav * {
 }
 
 div #topNav a:focus {
-    color: red;
+    color: #131313;
 }
 /* social link buttons */
 .fa {
@@ -20468,4 +20468,6 @@ figure.sqs-col-4.span-4 img {
 .projects_block {
     height: 40px;
 }
-
+.active {
+    color: #a410e6 !important;
+}
