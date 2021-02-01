@@ -3,6 +3,18 @@
     ViewBag.Title = "MimariRuhsat";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
+@section AdditionalMeta{
+
+    <!--Open Graph-->
+    <meta property="og:title" content="Colby Fayock - A UX Designer &amp; Front-end Developer Blog" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/static/website-social-card-44070c4a901df708aa1563ac4bbe595a.jpg" />
+    <!-- Search Engine -->
+
+    <meta name=”description” content="seo hizmeti yapan firmamız." />
+    <meta name=”keywords” content="seo uzmanı, google seo uzmanı" />
+}
 <div class="col sqs-col-12 span-12">
     <div class="top-menu-fixed">
         <div id="topNav" data-content-field="navigation">
@@ -47,10 +59,10 @@
             <a class="projects_buttons_menu" data-project-name="inegol_belediye" data-menu="belediye_binasi" style="display:none">İnegöl Belediye Binası Önerisi</a>
             <a class="projects_buttons_menu" data-project-name="konak_belediye" data-menu="belediye_binasi" style="display:none">Konak Belediye Binası Önerisi</a>
 
-            <div class="col sqs-col-12 projects_block" style="margin-top: 29px;margin-left: -15px;">
-                <a class="projects_buttons_menu" data-project-name="safak_aprt" data-menu="apartman" style="display:none">Şafak Apartmanı</a>
-                <a class="projects_buttons_menu" data-project-name="sahin_aprt" data-menu="apartman" style="display:none">Şahin Apartmanı</a>
-                <a class="projects_buttons_menu" data-project-name="yonca_aprt" data-menu="apartman" style="display:none">Yonca Apartmanı</a>
+            <div class="col sqs-col-12 projects_block second-menu-div" style="margin-top: 28px;margin-left: -15px;">
+                <a class="projects_buttons_menu second-menu" data-project-name="safak_aprt" data-menu="apartman" style="display: none;">Şafak Apartmanı</a>
+                <a class="projects_buttons_menu second-menu" data-project-name="sahin_aprt" data-menu="apartman" style="display: none;">Şahin Apartmanı</a>
+                <a class="projects_buttons_menu second-menu" data-project-name="yonca_aprt" data-menu="apartman" style="display: none;">Yonca Apartmanı</a>
             </div>
         </div>
 
@@ -911,8 +923,7 @@
                 </div>
                 <div class="sqs-block html-block mt-5 sqs-block-html" data-block-type="2">
                     <div class="col sqs-col-7 span-7">
-                        <p class="" style="white-space: pre-wrap;">
-                            Konak, İzmir’de bulunan belediye binası için sunulan öneri projesidir. Lokasyonda yapılan keşifler doğrultusunda mühendislerle birlikte çalışarak tasarlanan projenin sunum dosyası ve yönetmeliğe uygun olacak şekilde düzenlemesi yapılmıştır.
+                        <p class="" style="white-space: pre-wrap;">    Konak, İzmir’de bulunan belediye binası için sunulan öneri projesidir. Lokasyonda yapılan keşifler doğrultusunda mühendislerle birlikte çalışarak tasarlanan projenin sunum dosyası ve yönetmeliğe uygun olacak şekilde düzenlemesi yapılmıştır.
                         </p>
                     </div>
                 </div>
@@ -982,8 +993,7 @@
                 </div>
                 <div class="sqs-block html-block mt-5 sqs-block-html" data-block-type="2">
                     <div class="col sqs-col-7 span-7">
-                        <p class="" style="white-space: pre-wrap;">
-                            Aksaray’da bulunan 8 katlı otelin iç mekân ve cephe tasarımı projesidir. Mevcut yapıda olacak değişiklikler ile otele daha modern bir yüz getirmek istenmiştir. Bu çerçevede yapı en alt kattan en üst kata kadar yeniden tasarlanmıştır. Resepsiyon bölümü, odalar, sirkülasyon alanları, restoran bölümü ve cephesi de dahil olmak üzere tasarım bütüncül bir yaklaşım ile yapılmıştır.
+                        <p class="" style="white-space: pre-wrap;">   Aksaray’da bulunan 8 katlı otelin iç mekân ve cephe tasarımı projesidir. Mevcut yapıda olacak değişiklikler ile otele daha modern bir yüz getirmek istenmiştir. Bu çerçevede yapı en alt kattan en üst kata kadar yeniden tasarlanmıştır. Resepsiyon bölümü, odalar, sirkülasyon alanları, restoran bölümü ve cephesi de dahil olmak üzere tasarım bütüncül bir yaklaşım ile yapılmıştır.
                         </p>
                     </div>
                 </div>
@@ -1042,8 +1052,7 @@
                 </div>
                 <div class="sqs-block html-block mt-5 sqs-block-html" data-block-type="2">
                     <div class="col sqs-col-7 span-7">
-                        <p class="" style="white-space: pre-wrap;">
-                            Kadıköy’de bulunan dış cephe projesidir. Dış cephe çalışmaları ve sunum dosyaları tarafımızdan hazırlanmıştır. Bununla birlikte belediye yönetmeliklerine uygun biçimde tadilat projeleri de hazırlanmıştır.
+                        <p class="" style="white-space: pre-wrap;">    Kadıköy’de bulunan dış cephe projesidir. Dış cephe çalışmaları ve sunum dosyaları tarafımızdan hazırlanmıştır. Bununla birlikte belediye yönetmeliklerine uygun biçimde tadilat projeleri de hazırlanmıştır.
                         </p>
                     </div>
                 </div>
@@ -1087,8 +1096,7 @@
                 </div>
                 <div class="sqs-block html-block mt-5 sqs-block-html" data-block-type="2">
                     <div class="col sqs-col-7 span-7">
-                        <p class="" style="white-space: pre-wrap;">
-                            Ümraniye’de yapılması tasarlanan kültür merkezi binası için sunulan öneri projesidir. Lokasyonda yapılan keşifler doğrultusunda mühendislerle birlikte çalışarak tasarlanan projenin sunum dosyası ve yönetmeliğe uygun olacak şekilde düzenlemesi yapılmıştır.
+                        <p class="" style="white-space: pre-wrap;">     Ümraniye’de yapılması tasarlanan kültür merkezi binası için sunulan öneri projesidir. Lokasyonda yapılan keşifler doğrultusunda mühendislerle birlikte çalışarak tasarlanan projenin sunum dosyası ve yönetmeliğe uygun olacak şekilde düzenlemesi yapılmıştır.
                         </p>
                     </div>
                 </div>
@@ -1100,7 +1108,7 @@
     </div>
 </div>
 <script>
-    
+
     $(".projects_block > a").on("click",
         function () {
             var projectName = $(this).data("project-name");

@@ -37,39 +37,43 @@ namespace Architecture.Controllers
         public ActionResult References()
         {
             ViewBag.ActiveLink = "References";
-
             return View();
         }
         public ActionResult IcMimari()
         {
+            ViewBag.Collection = "Projeler";
             ViewBag.ActiveLink = "IcMimari";
-
             return View();
         }  
         public ActionResult MimariRuhsat()
         {
+            ViewBag.Collection = "Projeler";
             ViewBag.ActiveLink = "MimariRuhsat";
 
             return View();
         } 
         public ActionResult Restorasyon()
         {
+            ViewBag.Collection = "Projeler";
             ViewBag.ActiveLink = "Restorasyon";
             return View();
         }
         public ActionResult AhsapKutuk()
         {
+            ViewBag.Collection = "Projeler";
             ViewBag.ActiveLink = "AhsapKutuk";
+            return View();
+        }
+        
+        public ActionResult Media()
+        {
+            ViewBag.Collection = "Projeler";
+            ViewBag.ActiveLink = "Media";
             return View();
         }
         public ActionResult Designs()
         {
             ViewBag.ActiveLink = "Designs";
-            return View();
-        }
-        public ActionResult Media()
-        {
-            ViewBag.ActiveLink = "Media";
             return View();
         }
         public ActionResult Error()

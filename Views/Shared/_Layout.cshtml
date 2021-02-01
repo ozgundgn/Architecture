@@ -1,34 +1,21 @@
 ﻿<!DOCTYPE html>
 <html xmlns:og="https://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" lang="tr-TR">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <!-- This is Squarespace. --><!-- helix-chicory-pegn -->
     <base #href="">
     <title>Mahal Tasarım | Mahal İç Tasarım | </title>
-    <link rel="shortcut icon" type="image/x-icon" href="https://images.squarespace-cdn.com/content/v1/5d0cbbde5ac0ce0001b4754c/1571934576899-5YPPGGFAC2LN7WJCT20Z/ke17ZwdGBToddI8pDm48kPJXHKy2-mnvrsdpGQjlhod7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmrMDYraMJMCQwFxTSOIP7LpSBEQpA-g5k6VTjWbSuadHJq0dp98hg5AZvIaPb3DoM/favicon.ico?format=100w" />
-    <link rel="canonical" href="../Home/Index.html" />
-    <meta property="og:site_name" content="Murron Interior Design" />
-    <meta property="og:title" content="Somerset Interior Design | Murron Interior Design | " />
-    <meta property="og:url" content="index.html" />
-    <meta property="og:type" content="website" />
-    <meta property="og:description" content="We compose unique hideaways. Murron Interiors is an interior design studio based in Somerset, UK." />
-    <meta property="og:image" content="../../Content/Images/murron-logo---large2acd.png?format=1500w" />
-    <meta property="og:image:width" content="1500" />
-    <meta property="og:image:height" content="612" />
-    <meta itemprop="name" content="Somerset Interior Design &#124; Murron Interior Design &#124; " />
-    <meta itemprop="url" content="index.html" />
-    <meta itemprop="description" content="We compose unique hideaways. Murron Interiors is an interior design studio based in Somerset, UK." />
-    <meta itemprop="thumbnailUrl" content="../../Content/Images/murron-logo---large2acd.png?format=1500w" />
     <link rel="image_src" href="../../Content/Images/murron-logo--large2acd.png?format=1500w" />
-    <meta itemprop="image" content="../../Content/Images/murron-logo---large2acd.png?format=1500w" />
-    <meta name="twitter:title" content="Somerset Interior Design &#124; Murron Interior Design &#124; " />
-    <meta name="twitter:image" content="../../Content/Images/murron-logo---large2acd.png?format=1500w" />
-    <meta name="twitter:url" content="../Home/Index.html" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:description" content="We compose unique hideaways. Murron Interiors is an interior design studio based in Somerset, UK." />
-    <meta name="description" content="We compose unique hideaways. Murron Interiors is an interior design studio based in Somerset, UK." />
+
+    <!--Static Meta Tags-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta property="og:url" content="http://www.mahaluralmimarlik.com/" />
+    <meta name=”Copyright” content="Bu sitede yer alan fotoğraf ve açıklamalar dahil yönderilmiş haber ve linklerin telif hakkı Mahal Ural Mimarlık firmasına aittir." />
+    <Meta name=“Yazar” content="Özgün Sabriye Doğan" />
+
+    @RenderSection("AdditionalMeta", false)
+
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
@@ -36,18 +23,9 @@
     @Scripts.Render("~/bundles/modernizr")
 
     @Scripts.Render("~/bundles/performance")
-    <script type="text/javascript">try { Typekit.load(); } catch (e) { }</script>
     @Scripts.Render("~/bundles/common")
     @Scripts.Render("~/bundles/site")
-    <script type="text/javascript">SQUARESPACE_ROLLUPS = {};</script>
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:700,400" />
-    <script type="text/javascript">
-        SquarespaceFonts.loadViaContext(); Squarespace.load(window);
-    </script>
-    <script type="application/ld+json">
-        {"url":"https://murroninteriors.com","name":"Murron Interior Design","description":"","image":"//static1.squarespace.com/static/5d0cbbde5ac0ce0001b4754c/t/5defa108ab886c6b1e56e1e1/1592974261350/","context":"http://schema.org","type":"WebSite"}
-
-    </script>
     <style>
         .loaderImage {
             width: 300px;
@@ -174,7 +152,7 @@
                             </li>
                             <li class="page-collection folder-collection folder">
                                 <a>PROJELER</a>
-                                <div class="subnav">
+                                <div class="subnav @(ViewBag.Collection=="Projeler" ? "openMenu" : "")">
                                     <ul>
                                         <li class="external-link">
                                             <a href="@Url.Action("IcMimari", "Home")" class="@(ViewBag.ActiveLink=="IcMimamri"?"active":"")">İç Mimari</a>

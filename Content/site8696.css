@@ -20444,17 +20444,48 @@ figure.sqs-col-4.span-4 img {
     border-radius: 5px
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 800px) and (min-width:650px) {
     .projects_block {
         display: grid;
     }
+
     [data-project] {
         margin-top: 80% !important;
+    }
+
+    .top-menu-fixed {
+        position: relative !important;
+    }
+
+    .second-menu {
+        margin-right: -15px;
+    }
+
+    .second-menu-div {
+        margin-top: 2px !important;
+    }
+}
+
+@media only screen and (max-width:650px) {
+    [data-project] {
+        margin-top: 140% !important;
     }
     .top-menu-fixed {
         position: relative !important;
     }
+    .projects_block {
+        display: grid;
+    }
+
+    .second-menu {
+        margin-right: -15px;
+    }
+
+    .second-menu-div {
+        margin-top: 2px !important;
+    }
 }
+
 .top-menu-fixed {
     position: fixed;
     top: 0;
@@ -20462,12 +20493,15 @@ figure.sqs-col-4.span-4 img {
     width: 100%;
     background: white;
 }
+
 [data-project] {
     margin-top: 2%;
 }
+
 .projects_block {
     height: 40px;
 }
+
 .active {
     color: #a410e6 !important;
 }
