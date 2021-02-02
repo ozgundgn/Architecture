@@ -19606,7 +19606,8 @@ body.sqs-style-mode {
     .main-nav li,
     .main-nav li a {
         display: inline;
-        margin-right: 0
+        margin-right: 0;
+        border: 1px solid transparent;
     }
 
     .blog-sidebar-right #page .main-content,
@@ -20443,16 +20444,19 @@ figure.sqs-col-4.span-4 img {
     color: #000;
     border-radius: 5px
 }
-
-@media only screen and (max-width: 800px) and (min-width:650px) {
+@media only screen and (min-width: 800px) {
+    .projects_block {
+        height: 40px;
+    }
+}
+@media only screen and (max-width: 800px) {
     .projects_block {
         display: grid;
     }
 
-    [data-project] {
-        margin-top: 80% !important;
+    .first-ref-class {
+        margin-left: 4px;
     }
-
     .top-menu-fixed {
         position: relative !important;
     }
@@ -20464,28 +20468,10 @@ figure.sqs-col-4.span-4 img {
     .second-menu-div {
         margin-top: 2px !important;
     }
-}
-
-@media only screen and (max-width:650px) {
-    [data-project] {
-        margin-top: 140% !important;
-    }
-    .top-menu-fixed {
-        position: relative !important;
-    }
-    .projects_block {
-        display: grid;
-    }
-
-    .second-menu {
-        margin-right: -15px;
-    }
-
-    .second-menu-div {
-        margin-top: 2px !important;
+    .card-insert {
+        margin-left: 15px !important;
     }
 }
-
 .top-menu-fixed {
     position: fixed;
     top: 0;
@@ -20498,10 +20484,11 @@ figure.sqs-col-4.span-4 img {
     margin-top: 2%;
 }
 
-.projects_block {
-    height: 40px;
-}
+
 
 .active {
     color: #a410e6 !important;
+}
+.nav-tabs .nav-item {
+    margin-bottom: 4px;
 }

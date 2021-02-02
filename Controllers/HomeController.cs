@@ -10,7 +10,7 @@ using Architecture.Filters;
 
 namespace Architecture.Controllers
 {
-  
+
     public class HomeController : Controller
     {
         [ExceptionFilter]
@@ -44,14 +44,14 @@ namespace Architecture.Controllers
             ViewBag.Collection = "Projeler";
             ViewBag.ActiveLink = "IcMimari";
             return View();
-        }  
+        }
         public ActionResult MimariRuhsat()
         {
             ViewBag.Collection = "Projeler";
             ViewBag.ActiveLink = "MimariRuhsat";
 
             return View();
-        } 
+        }
         public ActionResult Restorasyon()
         {
             ViewBag.Collection = "Projeler";
@@ -64,7 +64,7 @@ namespace Architecture.Controllers
             ViewBag.ActiveLink = "AhsapKutuk";
             return View();
         }
-        
+
         public ActionResult Media()
         {
             ViewBag.Collection = "Projeler";
@@ -80,6 +80,6 @@ namespace Architecture.Controllers
         {
             return View();
         }
-        
+
     }
 }

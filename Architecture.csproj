@@ -376,6 +376,7 @@
     <Content Include="Content\Images\restorasyon\Pembe Yalı\7.jpg" />
     <Content Include="Content\Images\restorasyon\Pembe Yalı\8.jpg" />
     <Content Include="Content\Images\restorasyon\Pembe Yalı\9.jpg" />
+    <Content Include="Content\lightbox.min.css" />
     <Content Include="Content\site8696.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
@@ -453,6 +454,7 @@
     <Content Include="Content\Images\restorasyon\Elmadağ\Elmadağ Otel.docx" />
     <Content Include="Content\Images\restorasyon\Pembe Yalı\Pembe Yalı.docx" />
     <Content Include="Content\Images\Etasarim\e tasarım stüdyosu.docx" />
+    <Content Include="package.json" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\common-4faa08d78bc08f84f957a-min.en-US.js" />
     <Content Include="Scripts\common-vendors-a4a6a154b60d89855f557-min.en-US.js" />
@@ -467,6 +469,7 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\lightbox.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\performance-d006a09b586a985da86bd-min.en-US.js" />
     <Content Include="Scripts\performance.js" />
