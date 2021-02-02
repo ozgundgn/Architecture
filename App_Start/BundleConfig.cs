@@ -37,6 +37,9 @@ namespace Architecture
                 ));
             bundles.Add(new ScriptBundle("~/bundles/site").Include(
                       "~/Scripts/site.js"
+                ));  
+            bundles.Add(new ScriptBundle("~/bundles/lightbox").Include(
+                      "~/Scripts/lightbox.js"
                 ));
 
 
@@ -46,6 +49,10 @@ namespace Architecture
                       "~/Content/font-awesome.css", 
                       "~/Content/site8696.css",
                       "~/Content/site.css"));
+            bundles.Add(new StyleBundle("~/Content/lightbox").Include(
+                "~/Content/lightbox.min.css"
+                      ));
         }
+
     }
 }

@@ -124,6 +124,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\802.gif" />
     <Content Include="Content\all.css" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -166,6 +167,7 @@
     <Content Include="Content\Images\ahşap kütük yapı\Şile Dükkan\2.jpg" />
     <Content Include="Content\Images\ahşap kütük yapı\Şile Dükkan\3.jpg" />
     <Content Include="Content\Images\ahşap kütük yapı\Şile Dükkan\4.jpg" />
+    <Content Include="Content\Images\close.png" />
     <Content Include="Content\Images\DESIGN_ARCHITECTURE.png" />
     <Content Include="Content\Images\Etasarim\EtasarimImage.jpeg" />
     <Content Include="Content\Images\IcMimari\A.U. evi\1.jpg" />
@@ -290,6 +292,7 @@
     <Content Include="Content\Images\IcMimari\İthaki Yayın Evi\6.jpg" />
     <Content Include="Content\Images\insight-button-mahal.jpeg" />
     <Content Include="Content\Images\insights-button5d45.png" />
+    <Content Include="Content\Images\loading.gif" />
     <Content Include="Content\Images\mimari - ruhsat\Avcılar Apartman\1.jpg" />
     <Content Include="Content\Images\mimari - ruhsat\Bodrum Villa\1.jpg" />
     <Content Include="Content\Images\mimari - ruhsat\Bodrum Villa\2.jpg" />
@@ -347,6 +350,8 @@
     <Content Include="Content\Images\mimari - ruhsat\Şahin Apartmanı\1.jpg" />
     <Content Include="Content\Images\mimari - ruhsat\Şahin Apartmanı\2.jpg" />
     <Content Include="Content\Images\mimari - ruhsat\Şahin Apartmanı\3.jpeg" />
+    <Content Include="Content\Images\next.png" />
+    <Content Include="Content\Images\prev.png" />
     <Content Include="Content\Images\profile.jpeg" />
     <Content Include="Content\Images\Referanslar\cicekler.jpeg" />
     <Content Include="Content\Images\Referanslar\epo.jpeg" />
@@ -469,6 +474,7 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\lightbox.js" />
     <Content Include="Scripts\lightbox.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\performance-d006a09b586a985da86bd-min.en-US.js" />
