@@ -20229,11 +20229,13 @@ body.sqs-style-mode {
 }
 
 p {
-    font-family: 'Gabriel-Sans-Light'
+    font-family: 'Calibri'
 }
 
 div #topNav a {
-    font-family: 'Gabriel-Sans-Light' !important
+    font-family: Arial !important;
+    font-size: 13px;
+    font-weight: 600;
 }
 
 div#mobileNav * {
