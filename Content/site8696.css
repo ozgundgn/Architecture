@@ -18273,7 +18273,7 @@ h6 {
     font-weight: normal;
     line-height: 1.4em;
     letter-spacing: 0px;
-    font-family: Montserrat;
+    font-family: Calibri !important;
     font-weight: 400;
     font-style: normal;
     line-height: 2em;
@@ -18320,7 +18320,7 @@ p {
     line-height: 1.8em;
     text-transform: none;
     letter-spacing: .02em;
-    font-size: inherit;
+    font-size: 15px;
     margin: 0 0 1em
 }
 
@@ -20233,7 +20233,7 @@ p {
 }
 
 div #topNav a {
-    font-family: Arial !important;
+    font-family: Times New Roman !important;
     font-size: 13px;
     font-weight: 600;
 }
@@ -20444,7 +20444,8 @@ figure.sqs-col-4.span-4 img {
     cursor: pointer;
     background-color: white;
     color: #000;
-    border-radius: 5px
+    border-radius: 5px;
+    font-family: Calibri;
 }
 @media only screen and (min-width: 800px) {
     .projects_block {
@@ -20532,4 +20533,12 @@ figure.sqs-col-4.span-4 img {
     background-repeat: no-repeat;
     background-position: center;
     margin: -100px 0 0 -100px;
+}
+.bottom-bar {
+    border: 1px solid #eee;
+    padding: 19px;
+    border-top-right-radius: 65px;
+    border-bottom-left-radius: 65px;
+    font-size: 10px;
+    text-align: center;
 }
