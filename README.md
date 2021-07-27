@@ -1,1 +1,1 @@
-Mimari tasarımların, görsellerin olduğu, tanıtım amaçlı, genellikle js,html,css kullanılarak yapılan bir web sitesidir.
+Mimari tasarımların, görsellerin olduğu, tanıtım amaçlı, genellikle js,html,css kullanılarak yapılan bir web sitesidir,2020.
